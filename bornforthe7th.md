@@ -28,7 +28,13 @@ You can then **run** this.
 
 When we run it, it can do anything we want - show some graphics, load an address book, open a file, play some music.
 
+## What do we mean when we talk about the compiler?
+
 When we talk about **a compiler** we mean something that takes the Java code and converts it into a naughts and ones.
+
+Sometimes we use the term **Java**, **the Java compiler** and **the compiler** interchanagably. 
+
+For example, "Java does not understand this line" and "The compiler does not understand this line" and "The Java compiler does not understand this line" all mean the same thing.
 
 ## How do we compile?
 
@@ -36,7 +42,7 @@ Another computer program helps us. We just press a button - labelled go or run -
 
 ## Basic form
 
-This is what a very, very basic Java program looks like
+A very basic Java program looks like this:
 
 ```java
 class Main {
@@ -54,13 +60,11 @@ For now we will program on line three.
 
 ## Comments
 
-**Comments** are lines the compiler ignores.
+**Comments** are lines Java ignores.
 
 Comments start with two forward slashes: `//`. 
 
-These are ignored by Java. 
-
-We use them to keep notes about a program. Or to help a colleague understand our program.
+We use them to keep notes about a program. Or to help a friend understand our program.
 
 Another way to write them is: `/* This is a comments */`
 
@@ -68,7 +72,7 @@ Another way to write them is: `/* This is a comments */`
 
 In Java a piece of text is called a **string**.
 
-A **string** must be surrounded by double quotation marks " ".
+A **string** must be surrounded by double quotation marks: `"Hello"`.
 
 When we want to print a string we must do five things:
 
@@ -94,7 +98,7 @@ A **statement** is an instruction you give to Java.
 
 For example, "Print a string".
 
-Every statement in Java ends with a **semi-colon**: `;`
+Every statement *must* end with a **semi-colon**: `;`
 
 We know only one statement at the moment: `System.out.println("Hi!");`
 
@@ -111,9 +115,9 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 ## Exercises ##
 
 0. Start a new Java program on https://repl.it
+0. Save this file as java_exercise_0_1 (click on the pen icon near the top left)
 0. Write a program that prints the string "My name is <insert your name here>!"`.
 0. Add a comment that says what your program does!
-0. Save this file as java_exercise_0_1 (click on the pen icon near the top left)
 
 ## Questions to answer ##
 
