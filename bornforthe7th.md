@@ -46,7 +46,11 @@ class Main {
 }
 ```
 
-For the moment ignore everything except line three. We will program there.
+For the moment ignore everything except line three. 
+
+We will explain the other lines in later lessons.
+
+For now we will program on line three.
 
 ## Comments
 
@@ -106,6 +110,7 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 
 ## Exercises ##
 
+0. Start a new Java program on https://repl.it
 0. Write a program that prints the string "My name is <insert your name here>!"`.
 0. Add a comment that says what your program does!
 0. Save this file as java_exercise_0_1 (click on the pen icon near the top left)
