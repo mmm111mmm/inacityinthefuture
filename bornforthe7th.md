@@ -32,7 +32,7 @@ When we talk about **a compiler** we mean something that takes the Java code and
 
 ## How do we compile?
 
-Normally, another computer program helps us. We just press a button - labelled go or run - and the Java file is compiled and run for us.
+Another computer program helps us. We just press a button - labelled go or run - and the Java file is compiled and run for us.
 
 ## Basic form
 
