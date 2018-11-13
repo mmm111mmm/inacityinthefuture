@@ -103,5 +103,7 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 0. What is Java?
 0. What is compiling?
 0. What is a comment?
+0. What is a statement?
+0. What must a statement end with?
 0. What is a string?
 0. What is a statement?
