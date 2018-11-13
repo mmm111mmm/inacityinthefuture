@@ -1,4 +1,4 @@
-# 0. Getting started
+# 0. Getting started - Printing your name
 
 ## What is Java?
 
@@ -74,6 +74,8 @@ When we want to print a string we must do five things:
 0. Then a closing parenthsis
 0. Then, finally, a **semi-colon**.
 
+**code sample 0.1**
+
 ```java
 class Main {
   public static void main(String[] args) {
@@ -94,9 +96,19 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 
 80% of all lines you will type will end in a semi-colon. Don't forget them!
 
+## Start coding ##
+
+0. Make a github account on https://github.com
+0. Go to https://repl.it and press signup, then press login, and login with your Github account
+0. Press the add button
+0. Select the Java language
+0. Type in the code you saw in code sample 0.1.
+
 ## Exercises ##
 
 0. Write a program that prints the string "My name is <insert your name here>!"`.
+0. Add a comment that says what your program does!
+0. Save this file as java_exercise_0_1 (click on the pen icon near the top left)
 
 ## Questions to answer ##
 
@@ -104,6 +116,7 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 0. What is compiling?
 0. What is a comment?
 0. What does a comment look like?
+0. What is a string?
+0. What is a string surrounded by?
 0. What is a statement?
 0. What must a statement end with?
-0. What is a string?
