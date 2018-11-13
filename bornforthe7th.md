@@ -1,6 +1,6 @@
 # 0. Getting started
 
-## What is Java
+## What is Java?
 
 When you talk to a Swede, you must speak Swedish.
 
@@ -10,27 +10,55 @@ Java is one of these languages.
 
 Sometimes we say we tell Java to do something. For example "Tell Java to print some text".
 
+## What is a Java program?
+
+A computer program is like Microsoft Word, Apple Mail, Tetris, Minecraft.
+
+A Java program is a computer program written in Java.
+
 ## What is compiling?
 
-We write program in Java.
+We write Java in a text file.
 
-We then **compile** that program. 
+We then **compile** that file. 
 
-When we compile it, the program is converted into naughts and ones (010101010010...). 
+When we compile it, it is converted into naughts and ones (010101010010...). 
 
-You can then **run** the program. The program can then do anything - show some graphics, load an address book, open a file, play some music.
+You can then **run** this. 
+
+When we run it, it can do anything we want - show some graphics, load an address book, open a file, play some music.
+
+When we talk about **a compiler** we mean something that takes the Java code and converts it into a naughts and ones.
+
+## How do we compile?
+
+Normally, another computer program helps us. We just press a button - labelled go or run - and the Java file is compiled and run for us.
 
 ## Basic form
+
+This is what a very, very basic Java program looks like
 
 ```java
 class Main {
   public static void main(String[] args) {
-    //
+    // this is a comment
   }
 }
 ```
 
 For the moment ignore everything except line three. We will program there.
+
+## Comments
+
+**Comments** are lines the compiler ignores.
+
+Comments start with two forward slashes: `//`. 
+
+These are ignored by Java. 
+
+We use them to keep notes about a program. Or to help a colleague understand our program.
+
+Another way to write them is: `/* This is a comments */`
 
 ## Printing and Strings
 
@@ -68,10 +96,12 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 
 ## Exercises ##
 
-0. Write a program that prints the string "My name is <insert your name here".
+0. Write a program that prints the string "My name is <insert your name here"`.
 
 ## Questions to answer ##
 
+0. What is Java?
+0. What is compiling?
+0. What is a comment?
 0. What is a string?
 0. What is a statement?
-0. What is compiling?
