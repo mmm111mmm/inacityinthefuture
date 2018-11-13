@@ -96,14 +96,14 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 
 ## Exercises ##
 
-0. Write a program that prints the string "My name is <insert your name here"`.
+0. Write a program that prints the string "My name is <insert your name here>!"`.
 
 ## Questions to answer ##
 
 0. What is Java?
 0. What is compiling?
 0. What is a comment?
+0. What does a comment look like?
 0. What is a statement?
 0. What must a statement end with?
 0. What is a string?
-0. What is a statement?
