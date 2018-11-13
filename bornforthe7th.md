@@ -8,7 +8,7 @@ When you talk to a computer, you must speak a language it understands.
 
 Java is one of these languages.
 
-Sometimes we say we tell Java to do something. For example "Tell Java to print some text".
+Sometimes we say "tell Java to do x, y or z". For example "Tell Java to print some text".
 
 ## What is a Java program?
 
