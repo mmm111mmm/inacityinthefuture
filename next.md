@@ -1,4 +1,3 @@
-
 # 3. Storing data
 
 This lesson deals with: variables, assignment, declaring, defining
