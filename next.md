@@ -69,7 +69,7 @@ But
 
 After you tell Java about your variable, you must give it some data. You must give it a **value**.
 
-To give you variable a value, you use the equals symbol: `=`. 
+You use the equals symbol, `=`, to give a variable to a value.
 
 For example: `String name = "Aaron";` or `int age = 36;`, or `boolean happy = true;`.
 
