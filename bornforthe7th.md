@@ -1,4 +1,6 @@
-# 0. Getting started - Printing your name
+# 0. Getting started - Printing your name 
+
+This lesson deals with: compiing, statements, strings, printing.
 
 ## What is Java?
 
@@ -97,7 +99,7 @@ When we want to print a string we must do five things:
 0. Then a closing parenthsis
 0. Then, finally, a **semi-colon**.
 
-**code sample 0.1**
+**code sample 0.0**
 
 ```java
 class Main {
@@ -125,7 +127,7 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 0. Go to https://repl.it and press signup, then press login, and login with your Github account
 0. Press the add button
 0. Select the Java language
-0. Type in the code you saw in code sample 0.1.
+0. Type in the code you saw in code sample 0.0.
 
 ## Exercises ##
 
@@ -144,3 +146,85 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 0. What is a string surrounded by?
 0. What is a statement?
 0. What must a statement end with?
+
+# 1. Data
+
+This lesson deals with: logic and data, variables, types, integers, floats
+
+## Data and logic
+
+In human language we have two main things: nouns and verbs.
+
+For example, nouns are: a cup, a plate, a chainsaw, the table, etc.
+
+For example, verbs are: drink, smash, turn on, sit, etc.
+
+In a computer prgoram we have two main things: data and logic.
+
+## Data
+
+Data is things like numbers and text. We previous used this program:
+
+```java
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+  }
+}
+```
+
+In this program we printed some data. We printed a string.
+
+## Logic
+
+Logic is instructions.
+
+An example of logic is this:
+
+* If you are late for work in the morning, you run to the u-bahn. Otherwise if you are not late for work, you walk to the u-bahn.
+
+We will look at logic next lesson.
+
+## A data type
+
+Java can use many different kinds of data. These different kinds are called **types**.
+
+We already know one: a string.
+
+## The int (or integer) data type
+
+Let's learn another data type.
+
+Whole numbers are: -2, -1, 0, 1, 2, 3, etc. We call these integers.
+
+Unlike strings, we do no surround **int**s with anything.
+
+Here's how we print an integer: 
+
+code sample 1.0
+
+```java
+class Main {
+  public static void main(String[] args) {
+    System.out.println(42);
+  }
+}
+```
+
+## The float (or floating point) data type
+
+Floating point numbers are: 0.1, 0.2, 0.666667, 14.2, 3.14, 9.9, etc
+
+As with ints, **floats** are not surrounded with anything.
+
+Here's how we print an integer: 
+
+code sample 1.1
+
+```java
+class Main {
+  public static void main(String[] args) {
+    System.out.println(3.1415);
+  }
+}
+```
