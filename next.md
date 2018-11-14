@@ -34,9 +34,40 @@ A variable consists of two things:
 
 We looked at data types previously: a string, an int, a float, a bool.
 
+Java needs to know the **type** of data.
+
 The name can be anything you want.
 
 For example: `String name` or `int age`.
+
+## What does a variable type look like?
+
+We know four types of data: a string, a int, a float and a bool.
+
+* When we want to specify a int variable, we say: `int something`
+* When we want to specify a float variable, we say: `float something`
+
+*But*:
+
+* When we want to specify a bool variable, we say: `boolean something`
+* When we want to specify a string variable, we say: `String something`
+
+Note that a string has a **uppercase** S. And that a bool is **boolean**.
+
+In later lessons, we will explain why string has an uppercase S.
+
+## What can I name my variable?
+
+We said it can be whatever you want.
+
+But 
+
+* It must start with a letter: `String hello`.
+* Or it can start with an **underscore**: `String _hello`.
+* And it must include no spaces: `String helloIAmALongerName`.
+* And it can include numbers, but not at the beginning: `String hello43`.
+
+## 
 
 one.
 
