@@ -17,6 +17,7 @@ All kinds of things:
 * Games such as Minecraft
 * Mobile phone apps such as Android apps
 * Banking software
+* Many, many other things
 
 ## Why should I learn Java and not another language?
 
