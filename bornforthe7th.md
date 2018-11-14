@@ -91,6 +91,8 @@ In Java a piece of text is called a **string**.
 
 A **string** must be surrounded by double quotation marks: `"Hello"`.
 
+*Only* strings are surrounded by quotation marks.
+
 When we want to print a string we must do five things:
 
 0. Type `System.out.println`
