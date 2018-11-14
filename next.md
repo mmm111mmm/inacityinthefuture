@@ -36,7 +36,17 @@ Java needs to know the **type** of variable. We looked at data types previously:
 
 The name can be anything you want.
 
-For example: `String name` or `int age`.
+For example: 
+
+```
+String name
+```
+
+or 
+
+```
+int age
+```
 
 ## What does a variable type look like?
 
