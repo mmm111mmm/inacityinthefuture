@@ -23,7 +23,7 @@ A banking program needs to print your balance, withdraw money from your account,
 
 We can say: "we need to change data". Or we can say: "we need to **vary** data".
 
-If we want to vary data, we use **variables**.
+If we need to vary data, we use **variables**.
 
 ## What is a variable made of?
 
@@ -69,7 +69,7 @@ But
 
 After you tell Java about your variable, you must give it some data. You must give it a **value**.
 
-To give you variable some data, you use the `=` symbol. 
+To give you variable a value, you use the equals symbol: `=`. 
 
 For example: `String name = "Aaron";` or `int age = 36;`, or `boolean happy = true;`.
 
