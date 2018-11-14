@@ -21,9 +21,9 @@ A banking program needs to print your balance, withdraw money from your account,
 
 ## Introducing variables
 
-We can say we need to change data. Or we need to **vary** data.
+We can say: we need to change data. Or we can say: we need to **vary** data.
 
-If we want to vary data, we need to use **variables**.
+If we want to vary data, we use **variables**.
 
 ## What does a variable look like?
 
