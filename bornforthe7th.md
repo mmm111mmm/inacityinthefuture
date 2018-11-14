@@ -188,7 +188,7 @@ An example:
 
 We will look at logic in a few lessons.
 
-##3. Data
+## 3. Data
 
 When we say **data** we mean things like numbers and text. We previously wrote this program:
 
