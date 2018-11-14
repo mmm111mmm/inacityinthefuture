@@ -175,7 +175,7 @@ We will look at logic in a few lessons.
 
 ## Data
 
-When we say **data** we mean things like numbers and text. We previous used this program:
+When we say **data** we mean things like numbers and text. We previously wrote this program:
 
 ```java
 class Main {
@@ -203,7 +203,7 @@ Unlike strings, we do no surround **int**s with anything.
 
 Here's how we print an integer: 
 
-code sample 1.0
+**code sample 1.0:**
 
 ```java
 class Main {
@@ -221,7 +221,7 @@ As with ints, **floats** are not surrounded with anything.
 
 Here's how we print an integer: 
 
-code sample 1.1
+**code sample 1.1:**
 
 ```java
 class Main {
@@ -243,7 +243,7 @@ As with ints and floats, **bool**s are not surrounded with anything.
 
 Here's how we print booleans: 
 
-code sample 1.2
+**code sample 1.2:**
 
 ```java
 class Main {
