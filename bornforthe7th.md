@@ -39,7 +39,7 @@ We write Java in a text file.
 
 We then **compile** that file. 
 
-When we compile it, it is converted into naughts and ones (010101010010...). 
+When we compile it, it is converted into noughts and ones (010101010010...). 
 
 You can then **run** this. 
 
