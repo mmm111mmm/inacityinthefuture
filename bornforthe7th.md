@@ -1,4 +1,4 @@
-# 0. Getting started - Printing your name 
+# 0. Getting started - What is Java?
 
 This lesson deals with: compiing, statements, strings, printing.
 
@@ -57,6 +57,8 @@ For example, "Java does not understand this line" and "The compiler does not und
 
 Another computer program helps us. We just press a button - labelled go or run - and the Java file is compiled and run for us.
 
+# 1. Getting started - Printing our name
+
 ## Basic form
 
 A very basic Java program looks like this:
@@ -101,7 +103,7 @@ When we want to print a string we must do five things:
 0. Then a closing parenthsis
 0. Then, finally, a **semi-colon**.
 
-**code sample 0.0**
+**code sample 1.0**
 
 ```java
 class Main {
@@ -123,7 +125,7 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 
 We can have a program with many statements:
 
-**code sample 0.1**
+**code sample 1.1**
 
 ```java
 class Main {
@@ -142,12 +144,12 @@ class Main {
 0. Go to https://repl.it and press signup, then press login, and login with your Github account
 0. Press the add button
 0. Select the Java language
-0. Type in the code you saw in code sample 0.0.
+0. Type in the code you saw in code sample 1.1.
 
 ## Exercises ##
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_0_0 (click on the pen icon near the top left)
+0. Save this file as java_exercise_1_0 (click on the pen icon near the top left)
 0. Write a program that has two statements: the first prints "My name is <insert your name here>!"`, and the second prints "Goodbye!".
 0. Add a comment that says what your program does!
 
@@ -162,7 +164,7 @@ class Main {
 0. What is a statement?
 0. What must a statement end with?
 
-# 1. Data - Printing some numbers, printing the truth
+# 2. Data - Printing some numbers, printing the truth
 
 This lesson deals with: logic and data, types, integers, floats, booleans
 
@@ -216,7 +218,7 @@ Unlike strings, we do no surround **int**s with anything.
 
 Here's how we print an integer: 
 
-**code sample 1.0:**
+**code sample 2.0:**
 
 ```java
 class Main {
@@ -256,7 +258,7 @@ As with ints and floats, **bool**s are not surrounded with anything.
 
 Here's how we print booleans: 
 
-**code sample 1.2:**
+**code sample 2.2:**
 
 ```java
 class Main {
@@ -270,7 +272,7 @@ class Main {
 ## Exercises ##
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_1_0 (click on the pen icon near the top left)
+0. Save this file as java_exercise_2_0 (click on the pen icon near the top left)
 0. Write a program that prints your name, and on the next line an int, and on the next line a float, and on the next line the two types of bools.
 
 ## Questions to answer ##
