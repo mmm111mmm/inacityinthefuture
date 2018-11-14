@@ -25,30 +25,21 @@ Another phrase for to change data, is **to vary** data.
 
 If we want to vary data, we need to use **variables**.
 
-## What does a variable look like?
+## What is a variable?
 
 A variable consists of two things:
 
 0. A data type
 0. A name
-0. An equals sign, `=`
-0. The data
 
 The data type is one we looked at previously: a string, an int, a float, a bool.
 
 The name can be anything you want.
 
-The data is called the *value*.
+For example: `String name` or `int age`.
 
-For example:
 
-```
-String name = "Aaron";
-```
 
-or 
-
-```
 
 
 
