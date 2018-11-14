@@ -21,11 +21,11 @@ To change data we need to use *variables*.
 
 ## Introducing variables
 
-Another phrase for to change data, is **to vary** data.
+We can say we need to change data. Or we can say we need to **vary** data.
 
 If we want to vary data, we need to use **variables**.
 
-## What is a variable?
+## What does a variable look like?
 
 A variable consists of two things:
 
@@ -38,9 +38,12 @@ The name can be anything you want.
 
 For example: `String name` or `int age`.
 
-
-
-
+.
+.
+.
+.
+.
+.
 
 
 # Changing data - Changing your name and age
