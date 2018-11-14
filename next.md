@@ -1,4 +1,4 @@
-# 4. Storing data
+# 4. Changing data - Varying data
 
 We currently print data directly:
 
@@ -11,17 +11,17 @@ class Main {
 }
 ```
 
-However programs need to change data.
+## We need to change data
+
+However, programs need to change data.
 
 A computer game needs to print your score, do something, then print the new score.
 
 A banking program needs to print your balance, withdraw money from your account, then print your new balance.
 
-To change data we need to use *variables*.
-
 ## Introducing variables
 
-We can say we need to change data. Or we can say we need to **vary** data.
+We can say we need to change data. Or we need to **vary** data.
 
 If we want to vary data, we need to use **variables**.
 
@@ -32,18 +32,18 @@ A variable consists of two things:
 0. A data type
 0. A name
 
-The data type is one we looked at previously: a string, an int, a float, a bool.
+We looked at data types previously: a string, an int, a float, a bool.
 
 The name can be anything you want.
 
 For example: `String name` or `int age`.
 
-.
-.
-.
-.
-.
-.
+. a
+. b 
+. c
+. d 
+. e
+. f
 
 
 # Changing data - Changing your name and age
