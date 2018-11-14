@@ -149,21 +149,21 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 
 # 1. Data
 
-This lesson deals with: logic and data, variables, types, integers, floats
+This lesson deals with: logic and data, variables, types, integers, floats, booleans
 
 ## Data and logic
 
 In human language we have two main things: nouns and verbs.
 
-For example, nouns are: a cup, a plate, a chainsaw, the table, etc.
+Nouns are: a cup, a plate, a chainsaw, the table, etc.
 
-For example, verbs are: drink, smash, turn on, sit, etc.
+Verbs are: drink, smash, turn on, sit, etc.
 
 In a computer prgoram we have two main things: data and logic.
 
 ## Data
 
-Data is things like numbers and text. We previous used this program:
+When we say **data** we mean things like numbers and text. We previous used this program:
 
 ```java
 class Main {
@@ -181,7 +181,7 @@ Logic is instructions.
 
 An example of logic is this:
 
-* If you are late for work in the morning, you run to the u-bahn. Otherwise if you are not late for work, you walk to the u-bahn.
+* If you are late for work in the morning, you run to the u-bahn. Otherwise, if you are not late for work, you walk to the u-bahn.
 
 We will look at logic next lesson.
 
@@ -189,7 +189,7 @@ We will look at logic next lesson.
 
 Java can use many different kinds of data. These different kinds are called **types**.
 
-We already know one: a string.
+We already know one type: a string.
 
 ## The int (or integer) data type
 
@@ -225,6 +225,30 @@ code sample 1.1
 class Main {
   public static void main(String[] args) {
     System.out.println(3.1415);
+  }
+}
+```
+
+## The boolean data type
+
+There was a man called George Bool. We have named a data type after him.
+
+A **bool** can only be two things. It can either be **true** or **false**.
+
+This comes in very useful in later lesson when look at logic.
+
+As with ints and floats, **bool**s are not surrounded with anything.
+
+
+Here's how we print booleans: 
+
+code sample 1.2
+
+```java
+class Main {
+  public static void main(String[] args) {
+    System.out.println(true);
+    System.out.println(false);
   }
 }
 ```
