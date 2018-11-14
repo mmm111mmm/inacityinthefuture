@@ -38,13 +38,15 @@ The name can be anything you want.
 
 For example: `String name` or `int age`.
 
-. a
-. b 
-. c
-. d 
-. e
-. f
+one.
 
+two.
+
+three.
+
+four.
+
+five.
 
 # Changing data - Changing your name and age
 
