@@ -10,6 +10,20 @@ Java is one of these languages.
 
 Sometimes we say "tell Java to do x, y or z". For example "Tell Java to print some text".
 
+## What is Java used for?
+
+All kinds of things: 
+
+* Games such as Minecraft
+* Mobile phone apps such as Android apps
+* Banking software
+
+## Why should I learn Java and not another language?
+
+You should learn many languages. You must start with one, and learn that well.
+
+Once you learn one major computer language well, such as Java, others will be easy.
+
 ## What is a Java program?
 
 A computer program is like Microsoft Word, Apple Mail, Tetris, Minecraft.
