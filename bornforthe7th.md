@@ -188,7 +188,7 @@ An example:
 
 We will look at logic in a few lessons.
 
-## Data
+##3. Data
 
 When we say **data** we mean things like numbers and text. We previously wrote this program:
 
@@ -236,7 +236,7 @@ As with ints, **floats** are not surrounded with anything.
 
 Here's how we print an integer: 
 
-**code sample 1.1:**
+**code sample 2.1:**
 
 ```java
 class Main {
@@ -282,3 +282,14 @@ class Main {
 0. What is a int (or an integer)? Give an example.
 0. What is a float? Give an example.
 0. What is a bool? Give two examples.
+
+TODO: Concateating strings
+
+# 3. Storing data
+
+This lesson deals with: variables, assignment, declaring, defining
+
+# 4. Changing data - Changing your name and age
+
+This lesson deals with: ++ numbers, -- numbers, + numbers, - numbers, + strings, printing and assignment.
+
