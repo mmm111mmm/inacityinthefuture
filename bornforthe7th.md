@@ -132,7 +132,7 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 ## Exercises ##
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_0_1 (click on the pen icon near the top left)
+0. Save this file as java_exercise_0_0 (click on the pen icon near the top left)
 0. Write a program that prints the string "My name is <insert your name here>!"`.
 0. Add a comment that says what your program does!
 
@@ -147,19 +147,29 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 0. What is a statement?
 0. What must a statement end with?
 
-# 1. Data
+# 1. Data - Printing some numbers, printing the truth
 
-This lesson deals with: logic and data, variables, types, integers, floats, booleans
+This lesson deals with: logic and data, types, integers, floats, booleans
 
 ## Data and logic
 
 In human language we have two main things: nouns and verbs.
 
-Nouns are: a cup, a plate, a chainsaw, the table, etc.
+Verbs are actions. For example, drink, smash, turn on, sit, etc.
 
-Verbs are: drink, smash, turn on, sit, etc.
+Nouns are things. For example, a cup, a plate, a chainsaw, the table, etc.
 
-In a computer prgoram we have two main things: data and logic.
+In a computer prgoram we have two main things: logic and data.
+
+## Logic
+
+Logic is instructions.
+
+An example:
+
+* If you are late for work in the morning, you run to the u-bahn. Otherwise, if you are not late for work, you walk to the u-bahn.
+
+We will look at logic in a few lessons.
 
 ## Data
 
@@ -175,19 +185,9 @@ class Main {
 
 In this program we printed some data. We printed a string.
 
-## Logic
-
-Logic is instructions.
-
-An example of logic is this:
-
-* If you are late for work in the morning, you run to the u-bahn. Otherwise, if you are not late for work, you walk to the u-bahn.
-
-We will look at logic next lesson.
-
 ## A data type
 
-Java can use many different kinds of data. These different kinds are called **types**.
+Java can use different kinds of data. These different kinds are called **types**.
 
 We already know one type: a string.
 
@@ -231,14 +231,13 @@ class Main {
 
 ## The boolean data type
 
-There was a man called George Bool. We have named a data type after him.
+There was a man called George Bool. Some people named a data type after him.
 
 A **bool** can only be two things. It can either be **true** or **false**.
 
 This comes in very useful in later lesson when look at logic.
 
 As with ints and floats, **bool**s are not surrounded with anything.
-
 
 Here's how we print booleans: 
 
@@ -252,3 +251,17 @@ class Main {
   }
 }
 ```
+
+## Exercises ##
+
+0. Start a new Java program on https://repl.it
+0. Save this file as java_exercise_1_0 (click on the pen icon near the top left)
+0. Write a program that prints your name, and on the next line an int, and on the next line a float, and on the next line the two types of bools.
+
+## Questions to answer ##
+
+0. What is a data type?
+0. Give an example of a data type.
+0. What is a int (or an integer)? Give an example.
+0. What is a float? Give an example.
+0. What is a bool? Give two examples.
