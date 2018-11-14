@@ -121,6 +121,19 @@ Every statement *must* end with a **semi-colon**: `;`
 
 We know only one statement at the moment: `System.out.println("Hi!");`
 
+We can have a program with many statements:
+
+**code sample 0.1**
+
+```java
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+    System.out.println("I am awake!");
+  }
+}
+```
+
 80% of all lines you will type will end in a semi-colon. Don't forget them!
 
 ## Start coding ##
@@ -135,7 +148,7 @@ We know only one statement at the moment: `System.out.println("Hi!");`
 
 0. Start a new Java program on https://repl.it
 0. Save this file as java_exercise_0_0 (click on the pen icon near the top left)
-0. Write a program that prints the string "My name is <insert your name here>!"`.
+0. Write a program that has two statements: the first prints "My name is <insert your name here>!"`, and the second prints "Goodbye!".
 0. Add a comment that says what your program does!
 
 ## Questions to answer ##
