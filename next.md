@@ -25,16 +25,14 @@ We can say: "we need to change data". Or we can say: "we need to **vary** data".
 
 If we want to vary data, we use **variables**.
 
-## What does a variable look like?
+## What is a variable made of?
 
-A variable consists of two things:
+A variable is made of two things:
 
-0. A data type
-0. A name
+0. A variable data type
+0. A variable name
 
-We looked at data types previously: a string, an int, a float, a bool.
-
-Java needs to know the **type** of data.
+Java needs to know the **type** of variable. We looked at data types previously: a string, an int, a float, a bool.
 
 The name can be anything you want.
 
@@ -67,7 +65,17 @@ But
 * And it must include no spaces: `String helloIAmALongerName`.
 * And it can include numbers, but not at the beginning: `String hello43`.
 
-## 
+## How can I put data in my variable?
+
+After you tell Java about your variable, you must give it some data. You must give it a **value**.
+
+To give you variable some data, you use the `=` symbol. 
+
+For example: `String name = "Aaron";` or `int age = 36;`, or `boolean happy = true;`.
+
+When we give a variable a value, we say we **assign** a value to a variable.
+
+## An example
 
 one.
 
