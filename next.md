@@ -95,11 +95,7 @@ If we want to tell Java about a boolean variable, named `happy`:
 boolean happy;
 ```
 
-When you tell Java about variables, you **declare** a variable.
-
-And declaring variables, like most things, means you make a **statement**. 
-
-And the semi-colon, `;`, comes after a statement.
+This is called **declaring** a variable. Declaring a variable is a **statement**. So you end it with a semi-colon, `;`.
 
 ## How can I put data in my variable?
 
@@ -156,7 +152,7 @@ class Main {
 
 When you declare a variable, you tell Java about it and give it a name.
 
-If you try to **declare** two variables, Java will get confused. It will not work.
+If you try to **declare** two variables with **same** name, Java will get confused. It will not work.
 
 **code sample 4.2**
 ```java
