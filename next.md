@@ -4,7 +4,7 @@ More concatenation, +=
 
 # 6. Changing an int
 
-++, --, +, -=, +=
++, -, ++, --, +, -=, +=
 
 # 7. Changing a float
 
