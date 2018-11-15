@@ -43,7 +43,7 @@ A variable is made of two things:
 0. A variable data type
 0. A variable name
 
-A variable data type is a type we looked at previously: string, int, float, bool, etc.
+A variable data type is a type we looked at previously: string, int, float, bool.
 
 A variable name can be anything you want.
 
