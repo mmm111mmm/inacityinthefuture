@@ -43,22 +43,20 @@ A variable is made of two things:
 0. A variable data type
 0. A variable name
 
-A variable data type is a type we looked at previously: string, int, float, bool.
+A variable data type is a type we looked at previously: string, int, float, boolean.
 
 A variable name can be anything you want.
 
 ## What does a variable type look like?
 
-We know four types of data: a string, a int, a float and a bool.
+We know four types of data: a string, a int, a float and a boolean.
 
 * When we want to specify a int variable, we say: `int something`
 * When we want to specify a float variable, we say: `float something`
-* When we want to specify a bool variable, we say: `boolean something`
+* When we want to specify a boolean variable, we say: `boolean something`
 * When we want to specify a string variable, we say: `String something`
 
 Note that a string has a **uppercase** S. 
-
-Note that a bool is **boolean**.
 
 In later lessons, we will explain why string has an uppercase S.
 
@@ -107,15 +105,15 @@ And the semi-colon, `;`, comes after a statement.
 
 We told Java about your variable. And your variable has a name.
 
-We can now use this name to give your variable a **value**.
+We can now use the variable name to give your variable a **value**.
 
-If you create a string variable called name, you can say:
+We can use the variable name, then a space, then the equals sign, `=`, then the value.
+
+For example, if you create a string variable called name, you can say:
 
 ```java
 name = "Aaron";
 ```
-
-This is called **defining** your variable. Defining a variable is a statement. So you end it with a semi-colon, `;`.
 
 If you create a int variable called age, you can say:
 
@@ -135,6 +133,8 @@ If you create a float variable called score, you can say:
 score = 10.50;
 ````
 
+This is called **defining** your variable. Defining a variable is a statement. So you end it with a semi-colon, `;`.
+
 ## Printing the variable
 
 We have declared a variable. And we have defined it. 
@@ -152,17 +152,35 @@ class Main {
 }
 ```
 
+## You can declare a variable ONLY ONCE
+
+When you declare a variable, you tell Java about it and give it a name.
+
+If you try to **declare** two variables, Java will get confused. It will not work.
+
+**code sample 4.2**
+```java
+class Main {
+  public static void main(String[] args) {
+    // THE BELOW WILL NOT WORK!!!!!!
+    String name;
+    String name;
+  }
+}
+```
+
 ## You can define variables many times
 
 When we define a variable, we give the variable a value.
 
 We can do this many times
 
-**code sample 4.1**
+**code sample 4.2**
 ```java
 class Main {
   public static void main(String[] args) {
-    int age = 36;
+    int age;
+    age = 36;
     System.out.println("One year passes.");
     age = 37;
     System.out.println("One year passes.");
@@ -176,6 +194,28 @@ The output is:
 
 ```
 My age is now: 38
+```
+
+## We can declare and define a variable at the same time
+
+We often declare and define a variable on the same line.
+
+For example: `String name = "Aaron";`.
+
+The above program is exactly the same as above:
+
+**code sample 4.3**
+```java
+class Main {
+  public static void main(String[] args) {
+    int age = 36;
+    System.out.println("One year passes.");
+    age = 37;
+    System.out.println("One year passes.");
+    age = 38;
+    System.out.println("My age is now: " + age);
+  }
+}
 ```
 
 ## Exercise
