@@ -123,17 +123,62 @@ If you create a int variable called age, you can say:
 age = 36;
 ````
 
-## An example
+If you create a boolean variable called age, you can say:
 
-one.
+```java
+happy = true;
+````
 
-two.
+If you create a float variable called score, you can say:
 
-three.
+```java
+score = 10.50;
+````
 
-four.
+## Printing the variable
 
-five.
+We have declared a variable. And we have defined it. 
+
+We can use the variable name to print it.
+
+**code sample 4.1**
+```java
+class Main {
+  public static void main(String[] args) {
+    int age;
+    age = 36;
+    System.out.println("My age is: " + age);
+  }
+}
+```
+
+## You can define variables many times
+
+When we define a variable, we give the variable a value.
+
+We can do this many times
+
+**code sample 4.1**
+```java
+class Main {
+  public static void main(String[] args) {
+    int age = 36;
+    System.out.println("One year passes.");
+    age = 37;
+    System.out.println("One year passes.");
+    age = 38;
+    System.out.println("My age is now: " + age);
+  }
+}
+```
+
+The output is:
+
+```
+My age is now: 38
+```
+
+## Exercise
 
 # Changing data - Changing your name and age
 
