@@ -34,7 +34,7 @@ This lesson will only talk about the first point: **Tell Java about the data**
 
 We can say: "we need to change data". Or we can say: "we need to **vary** data".
 
-So when we tell Java about data that we need to **vary**, we use **variables**.
+When we tell Java about data that we need to **vary**, we use **variables**.
 
 ## What is a variable made of?
 
@@ -68,7 +68,7 @@ We said it can be whatever you want. But:
 
 * It must start with a letter: `String hello`.
 * Or it can start with an **underscore**: `String _hello`.
-* And it must include no spaces: `String helloIAmALongerName`.
+* And it *must not* include spaces: `String helloIAmALongerName`.
 * And it can include numbers, but not at the beginning: `String hello43`.
 
 ## Examples
@@ -99,10 +99,29 @@ boolean happy;
 
 When you tell Java about variables, you **declare** a variable.
 
-And declaring variables, like most things, means you make a **statement**. And the semi-colon, `;`, comes after a statement.
+And declaring variables, like most things, means you make a **statement**. 
+
+And the semi-colon, `;`, comes after a statement.
 
 ## How can I put data in my variable?
 
+We told Java about your variable. And your variable has a name.
+
+We can now use this name to give your variable a **value**.
+
+If you create a string variable called name, you can say:
+
+```java
+name = "Aaron";
+```
+
+This is called **defining** your variable. Defining a variable is a statement. So you end it with a semi-colon, `;`.
+
+If you create a int variable called age, you can say:
+
+```java
+age = 36;
+````
 
 ## An example
 
