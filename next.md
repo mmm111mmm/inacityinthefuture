@@ -11,12 +11,8 @@
 
 =
 
-# 10. Scanner
+# 9. Scanner, Scope, Switch statement, Calculator project, While, modified project
 
-# 11. Scope
+# 10. If statement, comparing numbers, comparing booleans, comparing strings, comparing many things, comparing for at least one - small game
 
-# 12. Switch statement
-
-# 13. Calculator project
-
-# 14. While loopn
+# 11. Methods, return types, return statements, void, method signatures, - modified small game, parameters, - modified small game
