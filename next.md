@@ -19,11 +19,22 @@ A computer game needs to print your score, do something, then print the new scor
 
 A banking program needs to print your balance, withdraw money from your account, then print your new balance.
 
-## Introducing variables
+## How to change data
+
+There are four steps:
+
+* Tell Java about the data
+* Print the data
+* Change the data
+* Print the data again
+
+This lesson will only talk about the first point: **Tell Java about the data**
+
+## How do we tell Java about data?
 
 We can say: "we need to change data". Or we can say: "we need to **vary** data".
 
-If we need to vary data, we use **variables**.
+So when we tell Java about data that we need to **vary**, we use **variables**.
 
 ## What is a variable made of?
 
@@ -32,21 +43,9 @@ A variable is made of two things:
 0. A variable data type
 0. A variable name
 
-Java needs to know the **type** of variable. We looked at data types previously: a string, an int, a float, a bool.
+A variable data type is a type we looked at previously: string, int, float, bool, etc.
 
-The name can be anything you want.
-
-For example: 
-
-```
-String name
-```
-
-or 
-
-```
-int age
-```
+A variable name can be anything you want.
 
 ## What does a variable type look like?
 
@@ -54,36 +53,56 @@ We know four types of data: a string, a int, a float and a bool.
 
 * When we want to specify a int variable, we say: `int something`
 * When we want to specify a float variable, we say: `float something`
-
-*But*:
-
 * When we want to specify a bool variable, we say: `boolean something`
 * When we want to specify a string variable, we say: `String something`
 
-Note that a string has a **uppercase** S. And that a bool is **boolean**.
+Note that a string has a **uppercase** S. 
+
+Note that a bool is **boolean**.
 
 In later lessons, we will explain why string has an uppercase S.
 
 ## What can I name my variable?
 
-We said it can be whatever you want.
-
-But 
+We said it can be whatever you want. But:
 
 * It must start with a letter: `String hello`.
 * Or it can start with an **underscore**: `String _hello`.
 * And it must include no spaces: `String helloIAmALongerName`.
 * And it can include numbers, but not at the beginning: `String hello43`.
 
+## Examples
+
+If we want to tell Java about a string variable, named `hello`:
+
+```java
+String hello;
+```
+
+If we want to tell Java about a int variable, named `age`:
+
+```java
+int age;
+```
+
+If we want to tell Java about a float variable, named `score`:
+
+```java
+float score;
+```
+
+If we want to tell Java about a boolean variable, named `happy`:
+
+```java
+boolean happy;
+```
+
+When you tell Java about variables, you **declare** a variable.
+
+And declaring variables, like most things, means you make a **statement**. And the semi-colon, `;`, comes after a statement.
+
 ## How can I put data in my variable?
 
-After you tell Java about your variable, you must give it some data. You must give it a **value**.
-
-You use the equals symbol, `=`, to give a variable to a value.
-
-For example: `String name = "Aaron";` or `int age = 36;`, or `boolean happy = true;`.
-
-When we give a variable a value, we say we **assign** a value to a variable.
 
 ## An example
 
