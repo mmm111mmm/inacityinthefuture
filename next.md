@@ -56,9 +56,7 @@ We know four types of data: a string, a int, a float and a boolean.
 * When we want to specify a boolean variable, we say: `boolean something`
 * When we want to specify a string variable, we say: `String something`
 
-Note that a string has a **uppercase** S. 
-
-In later lessons, we will explain why string has an uppercase S.
+Note that a string has a **uppercase** S. In later lessons, we will explain this.
 
 ## What can I name my variable?
 
