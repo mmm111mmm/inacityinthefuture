@@ -34,17 +34,11 @@ For example, we assign `true` to the `happy` variable by writing:
 happy = true;
 ````
 
-# 6. Changing an int
-
-+, -, ++, --, +, -=, +=
-
-# 7. Changing a float
-
-+, -, +=, -=
-
-# 8. Changing a boolean
+# 8. Changing a boolean, bool assignment, if, and, or
 
 =
+
+# order of operation.
 
 # 9. Scanner, Scope, Switch statement, Calculator project, While, modified project
 
