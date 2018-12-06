@@ -134,13 +134,13 @@ This will output:
 
 Normal mathematical order applies: 
 
-* multiplication and division first
+* multiplication, division and remainder first
 * then addition and substraction
 * left to right
 
 In other words `1 + 3 * 4 / 2` is: `3 * 4` which equals `12`, then `12` divided by `2` which equals `6`, then add `1`. Then answer is `7`.
 
-This is called **order of operations**.
+This is called **operator precedence**.
 
 We can use parentheses give a different order. When Java sees paraentheses it calculates everything inside those first, from left to right.
 
@@ -156,5 +156,5 @@ So `(1 + 3) * (4 / 2)`. This means `1 + 3` equals `4`. Then `4 / 2` equals `2`. 
 ## Questions to answer
 
 0. Give five examples of mathematical operators we can use.
-0. What is the order of operations?
+0. What is the operator precedence?
 0. How can we specify a different order of operations?
