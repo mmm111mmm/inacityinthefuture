@@ -37,9 +37,9 @@ We will learn how to print to the screen.
 0. Then we type a closing parenthesis, `)`.
 0. And all statements end with a semi-colon, so we type `;`.
 
-## Printing something
+## Printing a **string**
 
-We are going to print some text.  In Java text is called a **string**.
+We are going to print some text. In Java text is called a **string**.
 
 A **string** must be surrounded by double quotation marks: `"Hello"`.
 
