@@ -70,9 +70,9 @@ This outputs
 26
 ```
 
-## Adding to a float with `+`
+## Doing the same with floats
 
-We can add to a float in the same way: with a `+`.
+We can do the same with floats. But the data types must all be floats.
 
 **code sample 7.3**
 ```java
@@ -82,6 +82,7 @@ class Main {
     System.out.println(score);
     score = score + 2.1;
     System.out.println(score);
+    score = score - 2.2;
   }
 }
 ```
@@ -90,30 +91,8 @@ This outputs
 
 ```
 10.5
-12.7
-```
-
-## Subtracting from a float with `-`
-
-We can substract from a float with `-`.
-
-**code sample 7.4**
-```java
-class Main {
-  public static void main(String[] args) {
-    float score = 10.5;
-    System.out.println(score);
-    score = score - 2.1;
-    System.out.println(score);
-  }
-}
-```
-
-This outputs 
-
-```
-10.5
-8.4
+12.6
+10.4
 ```
 
 ## Other operators
@@ -151,6 +130,23 @@ This will output:
 1.0
 ```
 
+## Using parentheses `()` to specify order
+
+Normal mathematical order applies: 
+
+* multiplication and division first
+* then addition and substraction
+* left to right
+
+In other words `1 + 3 * 4 / 2` is: `3 * 4` which equals `12`, then `12` divided by `2` which equals `6`, then add `1`. Then answer is `7`.
+
+This is called **order of operations**.
+
+We can use parentheses give a different order. When Java sees paraentheses it calculates everything inside those first, from left to right.
+
+So `(1 + 3) * (4 / 2)`. This means `1 + 3` equals `4`. Then `4 / 2` equals `2`. Then multiply `4` by `2`. The answer is `8`.
+
+
 ## Exercise
 
 0. Start a new Java program on https://repl.it
@@ -160,3 +156,5 @@ This will output:
 ## Questions to answer
 
 0. Give five examples of mathematical operators we can use.
+0. What is the order of operations?
+0. How can we specify a different order of operations?
