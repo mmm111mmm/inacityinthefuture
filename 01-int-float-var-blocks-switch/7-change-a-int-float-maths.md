@@ -159,7 +159,8 @@ So `(1 + 3) * (4 / 2)` is:
 ```java
 class Main {
   public static void main(String[] args) {
-    System.out.println((1 + 3) * (4 / 2));
+    int number = (1 + 3) * (4 / 2);
+    System.out.println(number);
   }
 }
 ```
