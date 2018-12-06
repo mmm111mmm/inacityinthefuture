@@ -1,5 +1,5 @@
 
-# 2. Data - Printing some numbers, printing the truth
+# 2. Data - Printing some numbers
 
 ## Data
 
