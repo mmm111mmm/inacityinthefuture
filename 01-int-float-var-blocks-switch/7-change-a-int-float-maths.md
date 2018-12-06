@@ -105,7 +105,7 @@ We can divide with `/`. We can multiply with `*`. We can find the remainder with
 
 For example:
 
-**code sample 7.7**
+**code sample 7.4**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -138,14 +138,37 @@ Normal mathematical order applies:
 * then addition and substraction
 * left to right
 
-In other words `1 + 3 * 4 / 2` is: `3 * 4` which equals `12`, then `12` divided by `2` which equals `6`, then add `1`. Then answer is `7`.
+In other words `1 + 3 * 4 / 2` is: 
+
+0. `3 * 4` which equals `12`
+0. Then `12` divided by `2` which equals `6`.
+0. Then add `1`. Then answer is `7`.
 
 This is called **operator precedence**.
 
 We can use parentheses give a different order. When Java sees paraentheses it calculates everything inside those first, from left to right.
 
-So `(1 + 3) * (4 / 2)`. This means `1 + 3` equals `4`. Then `4 / 2` equals `2`. Then multiply `4` by `2`. The answer is `8`.
+So `(1 + 3) * (4 / 2)` is:
 
+0. `1 + 3` equals `4`
+0. Then `4 / 2` equals `2`.
+0. Then multiply `4` by `2`. The answer is `8`.
+
+
+**code sample 7.5**
+```java
+class Main {
+  public static void main(String[] args) {
+    System.out.println((1 + 3) * (4 / 2));
+  }
+}
+```
+
+The output is:
+
+```
+8
+```
 
 ## Exercise
 
