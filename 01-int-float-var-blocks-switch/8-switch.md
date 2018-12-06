@@ -10,9 +10,10 @@ Java has a statement called `switch`.
 
 `switch` looks at a variable. Let's say it looks at a string variable called `weather`.
 
-In the case `weather` is `"Raining"`, it does something.
+`switch` looks at **cases** of a variable. This means: 
 
-But in the case `weather` is `"SunnyAndHot"`, it does something else.
+* in the case `weather` is `"Raining"`, it does something.
+* but in the case `weather` is `"SunnyAndHot"`, it does something else.
 
 ## Switch is a block statement
 
