@@ -1,20 +1,6 @@
 # 7. Changing an int and a float
 
-We learnt how to declare an int variable. And we learnt how to assign a value to that int.
-
-We also learnt how to assign a value to an int variable multiple times:
-
-**code sample 7.0**
-```java
-class Main {
-  public static void main(String[] args) {
-    int age = 36;
-    System.out.println(age);
-    age = 112;
-    System.out.println(age);
-  }
-}
-```
+We can use basic maths to change an int or float variable.
 
 ## Adding to an int with `+`
 
