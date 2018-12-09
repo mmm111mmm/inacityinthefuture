@@ -34,7 +34,7 @@ switch(weather) {
 }
 ```
 
-We do **not** end a block statement with a semi-colon (`;`).
+We do *not* end a block statement with a semi-colon (`;`).
 
 ## Cases
 
