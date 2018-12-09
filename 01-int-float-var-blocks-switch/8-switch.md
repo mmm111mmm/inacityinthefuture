@@ -8,29 +8,35 @@ This is simple logic. And Java supports it.
 
 Java has a statement called `switch`.
 
-`switch` looks at a variable. Let's say it looks at a string variable called `weather`.
+`switch` looks at a variable, a string variabled named `weather`, for example.
 
-`switch` looks at **cases** of a variable. This means: 
+Then `switch` looks at **cases** of a variable. This means: 
 
-* in the case `weather` is `"Raining"`, it does something.
-* but in the case `weather` is `"SunnyAndHot"`, it does something else.
+* In the case `weather` is `"Raining"`, it does something.
+* But in the case `weather` is `"SunnyAndHot"`, it does something else.
+* Etc.
 
-## Switch is a block statement
+## Switch is a block statement 
 
-Our other statements were: printing, defining a variable and assigning a variable.
-
-These are all single statments.
+We previously learnt single statements: printing, defining a variable and assigning a variable.
 
 But `switch` has multiple statements: one in the case `weather` is `"Raining"`, another if `weather` is something else, etc.
 
-## Next...
+We use **curly brackets**, `{ }`, to mark the beginning and end of the multiple statements.
 
-```
+We say we use a **block statement** when we have multiple statements.
+
+So far our `switch` looks like this:
+
+```java
 switch(weather) {
+  ...
 }
 ```
 
-Introduce case.
+## Cases
+
+
 
 Introduce break.
 
