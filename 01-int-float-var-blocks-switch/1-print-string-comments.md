@@ -51,7 +51,7 @@ So our final statement looks like this:
 System.out.println("Hello, world!");
 ```
 
-When we add this statement to the basic form of Java, it looks like this:
+When we add this statement, our program looks like this:
 
 **code sample 1.0**
 ```java
