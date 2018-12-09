@@ -50,20 +50,22 @@ We then have `case "SunnyAndHot":`.
 After this we can type statements, e.g.:
 
 ```java
+  ...
     case "SunnyAndHot":
       System.out.println("Oh great!");
       System.out.println("Let's go outside!")
+  ...
 ```
 
 When we want to end this case we **break**. We break by typing: `break;`:
 
 ```java
-    ...
-    case "SunnyAndHot":
-      System.out.println("Oh great!");
-      System.out.println("Let's go outside!");
-    break;
-    ...
+  ...
+  case "SunnyAndHot":
+    System.out.println("Oh great!");
+    System.out.println("Let's go outside!");
+  break;
+  ...
 ```
 
 ## Dealing with lots of cases
