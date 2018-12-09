@@ -7,7 +7,7 @@ We said a Java program contains instructions for the computer.
 
 We call these instructions **statements**. Around 75% of all code is statements. 
 
-In Java every statement ends with a semi-colon, `;`. Remember this fact!
+Every statement ends with a semi-colon, `;`. Remember this fact!
 
 ## Basic form of Java
 
