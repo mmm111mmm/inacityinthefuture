@@ -111,11 +111,53 @@ switch(weather) {
 }
 ```
 
-## `break` is very important.
+## `break` is very important
+
+We use `break` to break out of the block statement.
+
+If we forget, we will perform all the other statements until the next `break;`.
+
+Let's remove the `break;` after the first case:
+
+**code sample 8.0**
+```java
+class Main {
+  public static void main(String[] args) {
+    String weather = "SunnyAndHot";
+    switch(weather) {
+      case "SunnyAndHot":
+        System.out.println("Oh great!");
+        System.out.println("Let's go outside!");
+      // I AM MISSING A BREAK STATEMENT!
+      case "Raining":
+        System.out.println("Stay inside.");
+      break;
+      default:
+         System.out.println("Sup");
+      case "Snowing":
+        System.out.println("Make a snowman!");
+      break;  
+    }
+  }
+}
+```
+
+Can you guess what is printed?
+
+```
+Oh great!
+Let's go outside!
+Stay inside.
+```
+
+If you include the `break;` statement after the first case only the following will be printed:
+
+```
+Let's go outside!
+Stay inside.
+```
 
 # 10. Calculator project
-
-# 11. Order of operation 
 
 ## Exercise
 
