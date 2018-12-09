@@ -34,6 +34,8 @@ switch(weather) {
 }
 ```
 
+We do **not** end a block statement with a semi-colon (`;`).
+
 ## Cases
 
 Our `switch` statements deals with **cases**.
@@ -132,11 +134,12 @@ class Main {
       case "Raining":
         System.out.println("Stay inside.");
       break;
-      default:
-         System.out.println("Sup");
       case "Snowing":
         System.out.println("Make a snowman!");
-      break;  
+      break;      
+      default:
+         System.out.println("Sup");
+      break;
     }
   }
 }
@@ -153,18 +156,55 @@ Stay inside.
 If we don't remove the `break;` statement above, we get:
 
 ```
+Oh great!
 Let's go outside!
-Stay inside.
 ```
 
-# 10. Calculator project
+## Using a `switch` block statement on other data types
+
+We used `switch` on a string data type. 
+
+But we can use ints and floats too:
+
+**code sample 8.1**
+```java
+class Main {
+  public static void main(String[] args) {
+    int favouriteNumber = 2;
+    switch(favouriteNumber) {
+      case 2:
+        System.out.println("I like the number two, but it's not my favourite.");
+      break;
+      case 6:
+        System.out.println("That's my favourite number!");
+      break;
+      default:
+         System.out.println("I don't like that number.");
+      break;  
+    }
+  }
+}
+```
+
+The above will print:
+
+```
+I like the number two, but it's not my favourite.
+```
 
 ## Exercise
 
 0. Start a new Java program on https://repl.it
 0. Save this file as java_exercise_8_0 (click on the pen icon near the top left)
-0. 
+0. Type example 8.1. Change the problem so the `6` case is called instead.
+
+This exercise is easy. But will use `switch` calculator project in the new chapter. 
 
 ## Questions to answer
 
-0. 
+0. What does a `switch` statement do?
+0. What does `case` in a `switch` statement do?
+0. What does the `default` case do?
+0. What is a block statement?
+0. What does a block statement begin and end with?
+0. Does a block statement end with a semi-colon? (`;`?)
