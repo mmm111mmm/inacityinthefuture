@@ -2,7 +2,7 @@
 
 In this module, we learnt:
 
-* How to declare a variables
+* How to declare a variable
 * How to assign a value to a variable
 * How to do simple maths
 * How to use a `switch` statement.
