@@ -2,7 +2,7 @@
 
 We previously declared a variable.
 
-Now we will give that variable a value (i.e. "Aaron", 36, true, etc)
+Now we will give that variable a value (i.e. "Aaron", 36, 3.14, etc)
 
 ## How can we put data in our variable?
 
