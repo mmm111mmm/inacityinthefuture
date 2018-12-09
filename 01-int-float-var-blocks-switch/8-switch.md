@@ -70,6 +70,8 @@ When we want to end this case, we **break** out of this block statement. We brea
   ...
 ```
 
+When you `break;` Java leaves the `switch` statement.
+
 ## Dealing with lots of cases
 
 `switch` can deal with lots of statements:
