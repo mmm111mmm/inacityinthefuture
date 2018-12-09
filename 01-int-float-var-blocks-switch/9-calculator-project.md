@@ -31,7 +31,7 @@ After that, we will declare a `switch` statement that looks at the `operator` va
 
 0. In the case that `operator` is `"+"`, we will print out `number1` plus `number2`.
 0. In the case that `operator` is `"*"`, we will print out `number1` multiplied by `number2`.
-0. In the case that `operator` is `"%"`, we will print out `number1` divided by `number2`.
+0. In the case that `operator` is `"/"`, we will print out `number1` divided by `number2`.
 0. In the default case, we will print `"Sorry I don't understand"`.
 
 ## Running the program
