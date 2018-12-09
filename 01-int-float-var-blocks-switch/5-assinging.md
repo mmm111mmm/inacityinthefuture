@@ -91,7 +91,7 @@ My age is now: 38
 
 *Note:* We can assign a value to a variable multiple times. But we can only declare a variable (with the same name) once.
 
-## We can declare and assign a variable at the same time
+## We can declare and assign a variable on the same line
 
 We often declare and assign a variable on the same line.
 
