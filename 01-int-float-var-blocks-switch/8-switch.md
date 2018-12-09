@@ -47,7 +47,7 @@ When we deal with the case `weather` is `"Raining"` we:
 
 We then have `case "SunnyAndHot":`.
 
-After this we can type any other statement we want, e.g.:
+After this we can type statements, e.g.:
 
 ```java
     case "SunnyAndHot":
@@ -87,7 +87,9 @@ switch(weather) {
 
 When `weather` is none of the above cases nothing happens.
 
-We can, however, use a `default` case. The statements in the default case are performed if no other cases match:
+We can, however, use a `default` case. The statements after the default case are performed if no other cases match.
+
+You must also use `break;` after the default case.
 
 ```java
 switch(weather) {
@@ -103,6 +105,7 @@ switch(weather) {
     break;
     default:
       System.out.println("I'm not sure. Go to a bar maybe?");
+    break;
 }
 ```
 
