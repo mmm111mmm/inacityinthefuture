@@ -22,9 +22,9 @@ We previously learnt single statements: printing, defining a variable and assign
 
 But `switch` has multiple statements: one in the case `weather` is `"Raining"`, another if `weather` is something else, etc.
 
-We use **curly brackets**, `{ }`, to mark the beginning and the end of the multiple statements.
+We use **curly brackets**, `{ }`, to mark the beginning and to mark the end of multiple statements.
 
-When we start with a `{` and end with a `}` this is called a **block statement**.
+When we start with a `{` and end with a `}` this is called a **block statement**. `switch` is a block statement. We will learn others.
 
 So far, our `switch` looks like this:
 
@@ -38,16 +38,16 @@ switch(weather) {
 
 Our `switch` statements deals with **cases**.
 
-When we deal with the case `weather` is `"Raining"` we:
+When we deal with the case that `weather` is `"Raining"` we:
 
 0. Type word `case`
 0. Type a space
 0. Type the value (i.e. `"Ranining"`, `"SunnyAndHot"`, `"Snowing"` etc)
 0. Type a colon, `:`
 
-We then have `case "SunnyAndHot":`.
+For example, `case "SunnyAndHot":`.
 
-After this we can type statements, e.g.:
+We then can type statements, e.g.:
 
 ```java
   ...
@@ -57,7 +57,7 @@ After this we can type statements, e.g.:
   ...
 ```
 
-When we want to end this case we **break**. We break by typing: `break;`:
+When we want to end this case, we **break** out of this block statement. We break by typing: `break;`:
 
 ```java
   ...
@@ -128,7 +128,7 @@ class Main {
       case "SunnyAndHot":
         System.out.println("Oh great!");
         System.out.println("Let's go outside!");
-      // I AM MISSING A BREAK STATEMENT!
+      // I AM MISSING A BREAK STATEMENT!!!!
       case "Raining":
         System.out.println("Stay inside.");
       break;
@@ -150,7 +150,7 @@ Let's go outside!
 Stay inside.
 ```
 
-If you include the `break;` statement after the first case only the following will be printed:
+If we don't remove the `break;` statement above, we get:
 
 ```
 Let's go outside!
