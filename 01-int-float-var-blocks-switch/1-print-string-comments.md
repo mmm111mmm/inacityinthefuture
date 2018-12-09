@@ -84,7 +84,7 @@ We use them to keep notes about a program. Or to help a friend understand our pr
 
 Another way to write them is: `/* This is a comments */`
 
-Here is a the above program with a comment. Normally your comments will be more useful.
+Here is the above program with a comment. Normally your comments will be more useful.
 
 **code sample 1.2**
 
