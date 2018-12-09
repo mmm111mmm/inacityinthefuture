@@ -20,7 +20,7 @@ Then `switch` looks at **cases** of a variable. This means:
 
 We previously learnt single statements: printing, defining a variable and assigning a variable.
 
-But `switch` has multiple statements: one in the case `weather` is `"Raining"`, another if `weather` is something else, etc.
+But `switch` has multiple statements: one in the case that `weather` is `"Raining"`, another if `weather` is something else, etc.
 
 We use **curly brackets**, `{ }`, to mark the beginning and to mark the end of multiple statements.
 
