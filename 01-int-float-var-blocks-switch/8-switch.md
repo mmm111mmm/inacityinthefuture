@@ -12,8 +12,8 @@ Java has a statement called `switch`.
 
 Then `switch` looks at **cases** of a variable. This means: 
 
-* In the case `weather` is `"Raining"`, it does something.
-* But in the case `weather` is `"SunnyAndHot"`, it does something else.
+* In the case that `weather` is `"Raining"`, it does something.
+* But in the case that `weather` is `"SunnyAndHot"`, it does something else.
 * Etc.
 
 ## Switch is a block statement 
