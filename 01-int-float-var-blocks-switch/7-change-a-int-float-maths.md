@@ -164,6 +164,8 @@ The output is:
 0. Save this file as java_exercise_7_0 (click on the pen icon near the top left)
 0. Create a program that declares an int variable called `money`, then assigns `100` to that variable, then prints the variable, then multiples the variable by 50, then divides the variable by 2, and finally prints the variable again. 
 
+And
+
 0. Start a new Java program on https://repl.it
 0. Save this file as java_exercise_7_1 (click on the pen icon near the top left)
 0. Create a program that prints the result of `(10 + 1) * (10 / 5)` and on the next line the result of `10 + 1 * 10 / 5`.
