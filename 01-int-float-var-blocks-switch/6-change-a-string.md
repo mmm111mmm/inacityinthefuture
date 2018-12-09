@@ -18,7 +18,7 @@ class Main {
 
 ## Concatenating a value with `+`
 
-We can also change a string using **concatenation** (which we learnt in a previous lesson).
+We can change a string using **concatenation** (which we learnt in a previous lesson).
 
 We 
 
