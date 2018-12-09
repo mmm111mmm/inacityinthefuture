@@ -55,7 +55,7 @@ After this we can type any other statement we want, e.g.:
       System.out.println("Let's go outside!")
 ```
 
-When we want to end this case we **break**. We break by typind: `break;`:
+When we want to end this case we **break**. We break by typing: `break;`:
 
 ```java
     ...
@@ -66,7 +66,47 @@ When we want to end this case we **break**. We break by typind: `break;`:
     ...
 ```
 
-## Introduce default.
+## Dealing with lots of cases
+
+`switch` can deal with lots of statements:
+
+```java
+switch(weather) {
+    case "SunnyAndHot":
+      System.out.println("Oh great!");
+      System.out.println("Let's go outside!");
+    break;
+    case "Raining":
+      System.out.println("Stay inside.");
+    break;
+    case "Snowing":
+      System.out.println("Make a snowman!");
+    break;        
+}
+```
+
+When `weather` is none of the above cases nothing happens.
+
+We can, however, use a `default` case. The statements in the default case are performed if no other cases match:
+
+```java
+switch(weather) {
+    case "SunnyAndHot":
+      System.out.println("Oh great!");
+      System.out.println("Let's go outside!");
+    break;
+    case "Raining":
+      System.out.println("Stay inside.");
+    break;
+    case "Snowing":
+      System.out.println("Make a snowman!");
+    break;
+    default:
+      System.out.println("I'm not sure. Go to a bar maybe?");
+}
+```
+
+## `break` is very important.
 
 # 10. Calculator project
 
