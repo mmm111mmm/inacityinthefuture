@@ -24,7 +24,7 @@ But `switch` has multiple statements: one in the case `weather` is `"Raining"`, 
 
 We use **curly brackets**, `{ }`, to mark the beginning and the end of the multiple statements.
 
-Multiple statements beginning with a `{` and ending with a `}` is called a **block statement**.
+When we start with a `{` and ending with a `}` this is called a **block statement**.
 
 So far, our `switch` looks like this:
 
