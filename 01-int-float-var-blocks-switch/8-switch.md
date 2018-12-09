@@ -22,11 +22,11 @@ We previously learnt single statements: printing, defining a variable and assign
 
 But `switch` has multiple statements: one in the case `weather` is `"Raining"`, another if `weather` is something else, etc.
 
-We use **curly brackets**, `{ }`, to mark the beginning and end of the multiple statements.
+We use **curly brackets**, `{ }`, to mark the beginning and the end of the multiple statements.
 
-Multiple statments beginning with a `{` and ending with a `}` is a **block statement**.
+Multiple statements beginning with a `{` and ending with a `}` is called a **block statement**.
 
-So far our `switch` looks like this:
+So far, our `switch` looks like this:
 
 ```java
 switch(weather) {
@@ -36,11 +36,37 @@ switch(weather) {
 
 ## Cases
 
+Our `switch` statements deals with **cases**.
 
+When we deal with the case `weather` is `"Raining"` we:
 
-Introduce break.
+0. Type word `case`
+0. Type a space
+0. Type the value (i.e. `"Ranining"`, `"SunnyAndHot"`, `"Snowing"` etc)
+0. Type a colon, `:`
 
-Introduce default.
+We then have `case "SunnyAndHot":`.
+
+After this we can type any other statement we want, e.g.:
+
+```java
+    case "SunnyAndHot":
+      System.out.println("Oh great!");
+      System.out.println("Let's go outside!")
+```
+
+When we want to end this case we **break**. We break by typind: `break;`:
+
+```java
+    ...
+    case "SunnyAndHot":
+      System.out.println("Oh great!");
+      System.out.println("Let's go outside!");
+    break;
+    ...
+```
+
+## Introduce default.
 
 # 10. Calculator project
 
