@@ -69,6 +69,7 @@ class Main {
     score = score + 2.1;
     System.out.println(score);
     score = score - 2.2;
+    System.out.println(score);    
   }
 }
 ```
