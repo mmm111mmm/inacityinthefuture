@@ -196,7 +196,7 @@ I like the number two, but it's not my favourite.
 
 0. Start a new Java program on https://repl.it
 0. Save this file as java_exercise_8_0 (click on the pen icon near the top left)
-0. Type example 8.1. Change the problem so the `6` case is called instead.
+0. Type code sample 8.1. Change the program so the `6` case is performed.
 
 This exercise is easy. But will use `switch` calculator project in the new chapter. 
 
@@ -207,4 +207,4 @@ This exercise is easy. But will use `switch` calculator project in the new chapt
 0. What does the `default` case do?
 0. What is a block statement?
 0. What does a block statement begin and end with?
-0. Does a block statement end with a semi-colon? (`;`?)
+0. Does a block statement end with a semi-colon? (`;`)
