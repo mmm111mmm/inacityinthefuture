@@ -8,7 +8,7 @@ This is simple logic. And Java supports it.
 
 Java has a statement called `switch`.
 
-`switch` looks at a variable, a string variabled named `weather`, for example.
+`switch` looks at a variable, for example a string variabled named `weather`.
 
 Then `switch` looks at **cases** of a variable. This means: 
 
