@@ -9,6 +9,10 @@ We call these instructions **statements**. Around 75% of all code is statements.
 
 Every statement ends with a semi-colon, `;`. Remember this fact!
 
+The first statement we will learn is printing to the screen. 
+
+But first we must look at something else.
+
 ## Basic form of Java
 
 Before we learn our first statement, we will look at the basic form of Java:
