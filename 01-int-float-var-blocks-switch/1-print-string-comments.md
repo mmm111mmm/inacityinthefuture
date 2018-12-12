@@ -23,7 +23,7 @@ class Main {
 
 There is a lot we don't understand. We will learn about it all later.
 
-We will start coding on line three. For the moment we will ignore the rest.
+We will start coding on line three. We will ignore the rest for the moment. But we must always type it.
 
 ## Our first statment: printing
 
