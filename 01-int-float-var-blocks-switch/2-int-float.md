@@ -3,7 +3,7 @@
 
 ## Data
 
-In the last lesson we printed a string.
+In the last lesson we learnt our first statement: we printed a string.
 
 But Java can deal with other types of data.
 
