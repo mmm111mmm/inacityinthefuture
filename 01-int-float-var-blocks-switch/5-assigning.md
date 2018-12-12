@@ -4,6 +4,8 @@ We previously declared a variable.
 
 Now we will give that variable a value (i.e. "Aaron", 36, 3.14, etc)
 
+This will be the third statement that we can use.
+
 ## How can we put data in our variable?
 
 When we give a variable a value, we **assign** a value to variable. 
