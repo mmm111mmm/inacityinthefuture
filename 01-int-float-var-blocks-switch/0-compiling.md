@@ -2,8 +2,6 @@
 
 ## What is Java used for?
 
-All kinds of things: 
-
 * Games such as Minecraft
 * Mobile phone apps such as Android apps
 * Banking software
