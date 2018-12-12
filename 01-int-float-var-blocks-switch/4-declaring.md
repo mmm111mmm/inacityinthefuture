@@ -13,9 +13,9 @@ class Main {
 
 But computer programs need to change data. For example, your score in a computer game.
 
-When you need to change data, you first tell Java about your data.
+When we need to change data, we first tell Java about our data.
 
-This lesson will talk about telling Java about your data.
+So we will learn our second statement: telling Java about our data.
 
 ## Introducing variables
 
