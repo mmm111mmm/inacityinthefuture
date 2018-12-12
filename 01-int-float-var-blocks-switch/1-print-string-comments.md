@@ -21,11 +21,9 @@ class Main {
 }
 ```
 
-There is a lot here we don't understand. We will learn about it all in later lessons.
+There is a lot we don't understand. We will learn about it all later.
 
-For this lesson we will start coding on line three.
-
-We will ignore the rest for the moment.
+We will start coding on line three. For the moment we will ignore the rest.
 
 ## Our first statment: printing
 
