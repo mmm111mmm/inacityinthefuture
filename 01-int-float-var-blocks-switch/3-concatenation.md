@@ -23,6 +23,8 @@ My age is:
 36
 ```
 
+But we can make printing data types nicer. We can join them together.
+
 ## Printing joined data types
 
 We can print a string together with another type with the `+` symbol.
