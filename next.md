@@ -1,14 +1,16 @@
 
-# order of operation in booleans, <,>,==,>=,<=, if and if-else and else statement 
+# order of operation in booleans, <,>,==,>=,<=, if and if-else and else statement, scope? weather project
 
-# 9. Scanner, Scope, Switch statement, Calculator project, While, modified project
+# Methods, return types, return statements, void, method signatures, scope?
 
-# 10. If statement, comparing numbers, comparing booleans, comparing strings, comparing many things, comparing for at least one - small game
+# Arrays?
 
-# 11. Methods, return types, return statements, void, method signatures, - modified small game, parameters, - modified small game
+# Loops?
 
-# 12. Arrays, loops
+# Objects, Strings, Scanner, 
 
-# 13. Maps
+# Maps
 
-# 14. OOP
+# Enums
+
+# Classes

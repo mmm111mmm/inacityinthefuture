@@ -26,7 +26,7 @@ class Main {
 }
 ```
 
-We can also concatendate it to a string:
+We can also concatenate it onto a string:
 
 **code sample 1.0.1**
 ```

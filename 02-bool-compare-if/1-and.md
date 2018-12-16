@@ -1,6 +1,6 @@
 # 1. Booleans and "and".
 
-If we have time and money, we will go on holiday.
+"If we have time and money, we will go on holiday."
 
 So we look at two things: time and money.
 
