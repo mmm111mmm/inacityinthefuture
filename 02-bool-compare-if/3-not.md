@@ -51,7 +51,7 @@ class Main {
 
 So `nighttime` is `true` and `hot` is `true`. Because we look at `!nighttime` this means `nighttime` is false.  So `!nighttime && hot` is `false`. 
 
-Then we take that `false` and do `false || needFood`. `needFood` is true. Together the result is `true`.
+Then we take that `false` and do `false || needFood`. `needFood` is `true`. Together the result is `true`.
 
 So `!nighttime && hot || needFood` is `true`.
 
