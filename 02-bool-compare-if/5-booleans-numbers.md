@@ -8,7 +8,7 @@ You do this everyday: "If the price is less than 10, do not buy the drink".
 
 We call this **"less than"**. And we type `<`. 
 
-**code sample 1_5_0
+**code sample 1_5_0**
 ```java
 class Main {
   public static main(String[] args) {
@@ -23,7 +23,7 @@ class Main {
 
 The opposite this is **"more than"**. And we type `>`.
 
-**code sample 1_5_1
+**code sample 1_5_1**
 ```java
 class Main {
   public static main(String[] args) {
@@ -44,7 +44,7 @@ This is called **"less than or equal to"**. And we type "<=".
 
 We can do this in Java. We type 
 
-**code sample 1_5_2
+**code sample 1_5_2**
 ```java
 class Main {
   public static main(String[] args) {
@@ -59,7 +59,7 @@ class Main {
 
 We can also do **"more than or equal to"**. And we type `>=`.
 
-**code sample 1_5_3
+**code sample 1_5_3**
 ```java
 class Main {
   public static main(String[] args) {
