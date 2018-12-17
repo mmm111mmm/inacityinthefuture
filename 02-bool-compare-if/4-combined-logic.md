@@ -1,44 +1,58 @@
-# 3. More combined boolean logic
+# 4. More combined boolean logic
 
+## Combined boolean logic
 
+Let's look at some more combined logic:
+
+`false && false || true`
+
+The first part, `false && false`, is `false`. 
+
+So we take that result, and look at the second part `... || true`.
+
+And so that is `false || true`.
+
+So the result is `true`.
+
+## Combined boolean logic with a different order
+
+The result above worked because we did `false && false` first.
+
+But what if we do `false || true` first? 
+
+The result of that is `true`. 
+
+Now let's look at the first part again, `false && ...`.
+
+Now let's use our result with the first part, `false && true`.
+
+So the result is `false`.
 
 ## Combined boolean logic with parenthesis
 
-Imagine we are a noctural penguin. We don't like hot weather. We only go out at night. We could use the "boolean not".
+In the last section we decided to look at `false || true` first.
 
+We can make Java do this by using parenthesis, `()`.
+
+So these two boolean logic statements have different result: 
+
+`false && false || true` and `false && (false || true)`
+
+**code sample 1_4_0**
+```java
 class Main {
   public static void main(String[] args) {
-    boolean daytime = false;
-    boolean hot = true;
-    boolean needFood = true;
-    System.out.println("I am a noctural penguin. I will go outside: " + !daytime && hot || needFood);
-  }
+    System.out.println("false && false || true:" +  false && false || true);
+    System.out.println("false && (false || true)" + false && (false || true));
 }
 ```
 
-We have used a `boolean not` on `!daytime && hot`. But this now reads: 
+The output is:
 
-"If **it is not** daytime and it is hot, go outside." And we want to say: "If **it is not** daytime and **it is not** hot, go outside."
-
-We can do this with parenthesis `(` and `)`, like we did in maths to say: `2 * (1 + 2)`.
-
-When we wrap boolean logic in parenthesis, Java will do that logic first. So we can say:
-
-class Main {
-  public static void main(String[] args) {
-    boolean daytime = false;
-    boolean hot = true;
-    boolean needFood = false;
-    System.out.println("I am a penguin. I will go outside: " + !(daytime && hot) || needFood);
-  }
-}
 ```
-
-Java will look at `daytime && hot` first because it's wrapped in parenthesis. The result will be `false`. 
-
-Then Java uses the "boolean not" on that. So the result will be `true`.
-
-So it look like this `true || needFood`. And, in this case, `needFood` is false. But with a "boolean or" the result is `true`.
+false && false || true: true
+false && (false || true): false
+```
 
 ## Excersise
 
@@ -48,5 +62,4 @@ So it look like this `true || needFood`. And, in this case, `needFood` is false.
 
 ## Questions to answer ##
 
-0. What is a "boolean not"?
-0. Give an example of a "boolean not".
+0. In boolean logic, what do pathensises do?
