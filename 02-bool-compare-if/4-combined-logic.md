@@ -34,9 +34,10 @@ In the last section we decided to look at `false || true` first.
 
 We can make Java do this by using parenthesis, `()`.
 
-So these two boolean logic statements have different result: 
+So these two boolean logic statements have different results: 
 
-`false && false || true` and `false && (false || true)`
+0. `false && false || true` is `true`
+0. `false && (false || true)` is `false`
 
 **code sample 1_4_0**
 ```java
