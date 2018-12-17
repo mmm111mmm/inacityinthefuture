@@ -34,7 +34,7 @@ class Main {
 }
 ```
 
-## More than or equals to / Less than or equals to
+## Less than or equals to
 
 We wanted to buy the drink when it is less than 10.
 
@@ -55,6 +55,8 @@ class Main {
 }
 ```
 
+## More than or equals to
+
 We can also do **"more than or equal to"**. And we type `>=`.
 
 **code sample 1_5_3
@@ -68,6 +70,10 @@ class Main {
 }
 ```
 
+## What about floats?
+
+## What about strings?
+
 
 ## Excersise
 
@@ -77,5 +83,4 @@ class Main {
 
 ## Questions to answer ##
 
-0. What is a "boolean not"?
-0. Give an example of a "boolean not".
+0. 
