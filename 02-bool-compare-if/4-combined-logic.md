@@ -6,7 +6,7 @@ Let's look at some more combined logic:
 
 `false && false || true`
 
-The first part, `false && false`, is `false`. 
+The first part `false && false` is `false`. 
 
 So we take that result, and look at the second part `... || true`.
 
