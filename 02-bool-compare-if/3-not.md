@@ -33,7 +33,7 @@ We can combine the logic we learnt previously.
 
 For example, we can say: "If it is hot and is not night-time, I will go outside. However, if I have no food I will go outside, in any weather or anytime."
 
-So, imagine it's hot but it's night-time. Then we stay home. But we need food, so we go outside.
+Imagine it's hot but it's night-time. Then we stay home. But we need food, so we go outside.
 
 In Java this is: 
 
