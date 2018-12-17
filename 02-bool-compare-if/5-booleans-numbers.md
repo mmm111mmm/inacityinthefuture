@@ -2,11 +2,11 @@
 
 We can make numbers produce booleans.
 
-## More than
+## Less than
 
 You do this everyday: "If the price is less than 10, do not buy the drink".
 
-The symbol we use for this in Java is `<`. We call this **"less than"**.
+We call this **"less than"**. And we type `<`. 
 
 **code sample 1_5_0
 ```java
@@ -19,11 +19,11 @@ class Main {
 }
 ```
 
-## Less than
+## More than
 
-The opposite this is **"less than"** and the symbol is `>`.
+The opposite this is **"more than"**. And we type `>`.
 
-**code sample 1_5_0
+**code sample 1_5_1
 ```java
 class Main {
   public static main(String[] args) {
@@ -34,6 +34,39 @@ class Main {
 }
 ```
 
+## More than or equals to / Less than or equals to
+
+We wanted to buy the drink when it is less than 10.
+
+Sometimes we will buy it when it is 10 **or below**. 
+
+This is called **"less than or equal to"**. And we type "<=".
+
+We can do this in Java. We type 
+
+**code sample 1_5_2
+```java
+class Main {
+  public static main(String[] args) {
+    int price = 10;
+    boolean buyDrink = price <= 10;
+    System.out.println("I will buy the drink": buyDrink);
+  }
+}
+```
+
+We can also do **"more than or equal to"**. And we type `>=`.
+
+**code sample 1_5_3
+```java
+class Main {
+  public static main(String[] args) {
+    int price = 10;
+    boolean dontBuyDrink = price >= 10;
+    System.out.println("I will not buy the drink": dontBuyDrink);
+  }
+}
+```
 
 
 ## Excersise
