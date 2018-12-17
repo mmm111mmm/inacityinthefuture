@@ -18,7 +18,7 @@ So the result is `true`.
 
 The result above worked because we did `false && false` first.
 
-But what if we do `false || true` first? 
+But what if we do the second part (`false || true`) first? 
 
 The result of that is `true`. 
 
@@ -53,12 +53,6 @@ The output is:
 false && false || true: true
 false && (false || true): false
 ```
-
-## Excersise
-
-0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_1_2_0 (click on the pen icon near the top left)
-0. 
 
 ## Questions to answer ##
 
