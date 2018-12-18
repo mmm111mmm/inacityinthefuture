@@ -123,7 +123,7 @@ If we forget, we will perform all the other statements until the next `break;`.
 
 Let's remove the `break;` after the first case:
 
-**code sample 8.0**
+**code sample 0.8.0**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -168,7 +168,7 @@ We used `switch` on a string data type.
 
 But we can use ints and floats too:
 
-**code sample 8.1**
+**code sample 0.8.1**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -197,8 +197,8 @@ I like the number two, but it's not my favourite.
 ## Exercise
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_8_0 (click on the pen icon near the top left)
-0. Type code sample 8.1. Change the program so the `6` case is performed.
+0. Save this file as java_exercise_0_8_0 (click on the pen icon near the top left)
+0. Type code sample 0.8.1. Change the program so the `6` case is performed.
 
 This exercise is easy. But will use `switch` calculator project in the new chapter. 
 
