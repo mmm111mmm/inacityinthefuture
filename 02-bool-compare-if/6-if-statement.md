@@ -31,7 +31,7 @@ This is the end of the weather new.
 
 ## What happens if the boolean in `if` statement is `false`?
 
-In the code above, if `raining` is `false` then Java skips the `if` statement. Java prints the following:
+If `raining` is `false` in the above code, then Java skips the `if` statement:
 
 **code sample 1_6_1**
 ```java
