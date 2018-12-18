@@ -1,4 +1,7 @@
-## `else` statement
+# 7. Making more complex decisions with `if` statements 
+
+
+# `else` statement
 
 But we can give the `if` statement an `else` statement.  The `else` statement is a block statement too. 
 
@@ -34,3 +37,14 @@ We often ask more complex if questions.
 "If it is raining take an umbrella, if it is hailing take an umbrella, if you love your umbrella take an umbrella, else leave your umbrella at home."
 
 We have multiple `if` questions. Java supports this. It calls them `if-else` statments.
+
+
+## Excersise
+
+0. Start a new Java program on https://repl.it
+0. Save this file as java_exercise_1_6_0 (click on the pen icon near the top left)
+0. 
+## Questions to answer ##
+
+0. 
+
