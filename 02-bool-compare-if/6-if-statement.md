@@ -62,7 +62,8 @@ This is the end of the weather news.
 
 0. Start a new Java program on https://repl.it
 0. Save this file as java_exercise_1_6_0 (click on the pen icon near the top left)
-0. 
+0. Write a program with a int variable `age` with the value `18`.
+0. Write an if statement that prints `"You are over age"` if the `age` variable is more or equal to 18.
 
 ## Questions to answer ##
 
