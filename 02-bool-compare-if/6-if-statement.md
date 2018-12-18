@@ -4,7 +4,7 @@ We use **if statements** everyday: "If it is raining, take an umbrella."
 
 And in Java too. 
 
-## If statement
+## `if` statement
 
 `if` statements are block statements like `switch` statements. This means they start an end with `{` and `}`.
 
@@ -18,6 +18,7 @@ class Main {
     if(raining) {
       System.out.println("You should take an umbrella.");
     }
+    System.out.println("This is the end of the weather news.");    
   }
 }
 ```
@@ -25,12 +26,43 @@ class Main {
 The output is:
 ```
 You should take an umbrella.
+This is the end of the weather new.
 ```
 
-## If statement with an else statement
+## What happens if the boolean in `if` statement is `false`?
 
-If `raining` is false then the `if` statement is skipped (so nothing is printed).
+In the code above, if `raining` is `false` then Java skips the `if` statement. Java prints the following:
 
+```
+This is the end of the weather news.
+```
+
+## `else` statement
+
+But we can give the `if` statement an `else` statement.  The `else` statement is a block statement too. 
+
+Java runs everything in the `else` block if the `if` statement is false:
+
+**code sample 1_6_1
+```java
+class Main {
+  public static void(String[] args) {
+    boolean raining = false;
+    if(raining) {
+      System.out.println("You should take an umbrella.");
+    } else {
+      System.out.println("There is no need for an umbrella.");      
+    }
+    System.out.println("This is the end of the weather new.");    
+  }
+}
+```
+
+The output is:
+```
+There is no need for an umbrella.
+This is the end of the weather new.
+```
 
 ## And if-else statement
 
