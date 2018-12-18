@@ -6,7 +6,7 @@ And in Java too.
 
 ## `if` statement
 
-`if` statements are block statements like `switch` statements. This means they start an end with `{` and `}`.
+`if` statements are block statements like `switch` statements. They start with `{` and end with `}`.
 
 You type:
 
