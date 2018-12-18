@@ -6,7 +6,7 @@ In the last lesson, we printed either a string, an int or a float.
 
 For example:
 
-**code sample 3.0**
+**code sample 0.3.0**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -29,7 +29,7 @@ But we can make printing data types nicer. We can join them together.
 
 We can print a string together with another type with the `+` symbol.
 
-**code sample 3.1:**
+**code sample 0.3.1**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -46,7 +46,7 @@ My age is: 36.
 
 We can do this for floats too.
 
-**code sample 3.2:**
+**code sample 0.3.2**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -71,7 +71,7 @@ When we concatendate two values, the first value *must* be a string.
 
 We can also concatenate two strings:
 
-**code sample 3.3:**
+**code sample 0.3.3**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -82,7 +82,7 @@ class Main {
 
 This will print the same as:
 
-**code sample 3.4:**
+**code sample 0.3.4**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -94,7 +94,7 @@ class Main {
 ## Exercise
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_3_0 (click on the pen icon near the top left)
+0. Save this file as java_exercise_0_3_0 (click on the pen icon near the top left)
 0. Write a program that concatenates your name, a space, a number, a space, a float.
 
 ## Questions to answer
