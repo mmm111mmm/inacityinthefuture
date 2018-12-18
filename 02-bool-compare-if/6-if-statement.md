@@ -1,6 +1,6 @@
 # 6. Making decisions with booleans 
 
-We use **"if statements"** everyday: "If it is raining, take an umbrella." 
+We use **if statements** everyday: "If it is raining, take an umbrella." 
 
 And in Java too. 
 
