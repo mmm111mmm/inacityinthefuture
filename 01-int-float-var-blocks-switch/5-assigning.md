@@ -45,7 +45,7 @@ We declared a variable last lesson. And we assigned a value to a variable in thi
 
 We can now use the variable name to print it.
 
-**code sample 5.0**
+**code sample 0.5.0**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -68,7 +68,7 @@ We can change (or vary) our data by assigning a new value to it.
 
 For example:
 
-**code sample 5.1**
+**code sample 0.5.1**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -101,7 +101,7 @@ For example: `String name = "Aaron";`.
 
 The above program is exactly the same as above:
 
-**code sample 5.2**
+**code sample 0.5.2**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -118,7 +118,7 @@ class Main {
 ## Exercise
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_5_0 (click on the pen icon near the top left)
+0. Save this file as java_exercise_0_5_0 (click on the pen icon near the top left)
 0. Write a program that: declares a float value with variable name `balance`, assign the value `100.0` to it, print it, assign the value `90.0` to the same variable, then print it again.
 
 ## Questions to answer
