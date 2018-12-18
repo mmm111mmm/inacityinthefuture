@@ -14,7 +14,10 @@ You type:
 0. A opening parenthesis `(`
 0. The name of a boolean variable, boolean variables using `||` and `&&` etc, or `true` or `false`
 0. A closing parenthesis `)`
-0. And you start an end a block statement with `{` and a `}`.
+0. You start the block statement with a `{`
+0. Your statements (System.out.println at the moment)
+0. You end the block statement with a `}`
+
 
 **code sample 1_6_0**
 ```java
