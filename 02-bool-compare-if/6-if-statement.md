@@ -32,7 +32,7 @@ class Main {
 The output is:
 ```
 You should take an umbrella.
-This is the end of the weather new.
+This is the end of the weather news.
 ```
 
 ## What happens if the boolean in `if` statement is `false`?
@@ -54,7 +54,7 @@ class Main {
 
 The output is:
 ```
-This is the end of the weather new.
+This is the end of the weather news.
 ```
 
 
@@ -66,4 +66,7 @@ This is the end of the weather new.
 
 ## Questions to answer ##
 
-0. 
+0. When do you use an if statement?
+0. What data type does an if statement use
+0. When does an if statement run, and when does it not run?
+0. What kind of statement is an if statement?
