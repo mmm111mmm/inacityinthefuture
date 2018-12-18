@@ -52,12 +52,12 @@ We often ask more complex if questions.
 
 ```
 If it is a weekday I will go to work.
-But if it is not a weekday, but there is a work emergency, I will go to work.
-But if it is not a weekday, and there is no work emergency, but I want to do more work, I will go to work.
+If it is not a weekday, but there is a work emergency, I will go to work.
+If it is not a weekday, and there is no work emergency, but I want to do more work, I will go to work.
 Else I will stay at home.
 ```
 
-The middle two lines are new. Java support this with an `if else` statement.
+The middle two lines are new. Java support this with `if else` statements.
 
 ## Excersise
 
