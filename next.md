@@ -1,5 +1,5 @@
 
-# converting types, if and if-else and else statement, scope, weather project
+# converting types, scope?, weather project
 
 # Methods, return types, return statements, void, method signatures, scope?
 
@@ -9,7 +9,7 @@
 
 # Objects, Strings, Scanner, 
 
-# Maps
+# ArrayList, Maps
 
 # Enums
 
