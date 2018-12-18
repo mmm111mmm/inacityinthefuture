@@ -14,7 +14,7 @@ class Main {
   public static main(String[] args) {
     int price = 15;
     boolean buyDrink = price < 10;
-    System.out.println("I will buy the drink": buyDrink);
+    System.out.println("I will buy the drink: " + buyDrink);
   }
 }
 ```
@@ -29,7 +29,7 @@ class Main {
   public static main(String[] args) {
     int price = 15;
     boolean dontBuyDrink = price > 10;
-    System.out.println("I will not buy the drink": dontBuyDrink);
+    System.out.println("I will not buy the drink: " + dontBuyDrink);
   }
 }
 ```
@@ -50,7 +50,7 @@ class Main {
   public static main(String[] args) {
     int price = 10;
     boolean buyDrink = price <= 10;
-    System.out.println("I will buy the drink": buyDrink);
+    System.out.println("I will buy the drink: " + buyDrink);
   }
 }
 ```
@@ -65,15 +65,51 @@ class Main {
   public static main(String[] args) {
     int price = 10;
     boolean dontBuyDrink = price >= 10;
-    System.out.println("I will not buy the drink": dontBuyDrink);
+    System.out.println("I will not buy the drink: " + dontBuyDrink);
+  }
+}
+```
+
+## Equals
+
+We can compare two numbers. "If the price is 1. then buy it".
+
+In Java, we type `==` and we call this "equals".
+
+**code sample 1_5_4**
+```java
+class Main {
+  public static main(String[] args) {
+    int price = 1;
+    boolean buyDrink = price == 1;
+    System.out.println("I will buy the drink: " + buyDrink);
   }
 }
 ```
 
 ## What about floats?
 
+We can use `>`, `>=`, `<`, `<=` and `==` with floats too.
+
+But we cannot mix comparing ints and floats. (But we will learn how to later)
+
+**code sample 1_5_4**
+```java
+class Main {
+  public static main(String[] args) {
+    float yourScore = 11.5;
+    float topScore = 10.5;
+    boolean newTopScore = yourScore > topScore;
+    System.out.println("Your score is bigger than the top score:" + buyDrink);
+  }
+}
+```
+
 ## What about strings?
 
+We cannot compare strings like this. 
+
+In later lessons we will learn how to compare strings.
 
 ## Excersise
 
