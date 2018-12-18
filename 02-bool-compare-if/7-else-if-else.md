@@ -1,7 +1,7 @@
 # 7. Making more complex decisions with `if` statements 
 
 
-# `else` statement
+## `else` statement
 
 But we can give the `if` statement an `else` statement.  The `else` statement is a block statement too. 
 
