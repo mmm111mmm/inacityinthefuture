@@ -82,6 +82,12 @@ This is the end of the weather new.
 
 ## And if-else statement
 
+We often ask more complex if questions.
+
+"If it is raining take an umbrella, if it is hailing take an umbrella, if you love your umbrella take an umbrella, else leave your umbrella at home."
+
+We have multiple `if` questions. Java supports this. It calls them `if-else` statments.
+
 
 ## Excersise
 
