@@ -1,5 +1,5 @@
 
-# order of operation in booleans, <,>,==,>=,<=, if and if-else and else statement, scope? weather project
+# converting types, if and if-else and else statement, scope, weather project
 
 # Methods, return types, return statements, void, method signatures, scope?
 
