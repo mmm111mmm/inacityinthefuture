@@ -114,9 +114,17 @@ In later lessons we will learn how to compare strings.
 ## Excersise
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_1_3_1 (click on the pen icon near the top left)
-0. Create a program with two booleans `tastyBreakfast` which is `false`, and `fullStomach` which is `false`.
+0. Save this file as java_exercise_1_5_0 (click on the pen icon near the top left)
+0. Create a program with an int variable `age` which a value of `18`.
+0. Create a boolean `oldEnough`. Its value is the result of the boolean logic "if age is more than or equal to 18".
+0. Print out the value of `oldEnough`.
 
 ## Questions to answer ##
 
-0. 
+0. What does `>` do?
+0. What does `>=` do?
+0. What does `<` do?
+0. What does `<=` do?
+0. What does `==` do?
+0. What data types can we use the above on?
+0. What happens when we try to compare an int variable and a float variable?
