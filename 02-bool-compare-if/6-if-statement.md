@@ -10,7 +10,7 @@ And in Java too.
 
 And an `if` statement takes a boolean:
 
-**code sample 1_6_0
+**code sample 1_6_0**
 ```java
 class Main {
   public static void(String[] args) {
@@ -43,7 +43,7 @@ But we can give the `if` statement an `else` statement.  The `else` statement is
 
 Java runs everything in the `else` block if the `if` statement is false:
 
-**code sample 1_6_1
+**code sample 1_6_1**
 ```java
 class Main {
   public static void(String[] args) {
