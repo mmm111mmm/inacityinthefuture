@@ -14,7 +14,7 @@ In this case, we replace the existing value in `age`.
 
 For example:
 
-**code sample 7.1**
+**code sample 0.7.1**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -37,7 +37,7 @@ This outputs
 
 We can substract from an int with `-`.
 
-**code sample 7.2**
+**code sample 0.7.2**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -60,7 +60,7 @@ This outputs
 
 We can do the same with floats. But the data types must all be floats.
 
-**code sample 7.3**
+**code sample 0.7.3**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -92,7 +92,7 @@ We can divide with `/`. We can multiply with `*`. We can find the remainder with
 
 For example:
 
-**code sample 7.4**
+**code sample 0.7.4**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -142,7 +142,7 @@ So `(1 + 3) * (4 / 2)` is:
 0. Then multiply `4` by `2`. The answer is `8`.
 
 
-**code sample 7.5**
+**code sample 0.7.5**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -161,13 +161,13 @@ The output is:
 ## Exercise
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_7_0 (click on the pen icon near the top left)
+0. Save this file as java_exercise_0_7_0 (click on the pen icon near the top left)
 0. Create a program that declares an int variable called `money`, then assigns `100` to that variable, then prints the variable, then multiples the variable by 50, then divides the variable by 2, and finally prints the variable again. 
 
 And
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_7_1 (click on the pen icon near the top left)
+0. Save this file as java_exercise_0_7_1 (click on the pen icon near the top left)
 0. Create a program that prints the result of `(10 + 1) * (10 / 5)` and on the next line the result of `10 + 1 * 10 / 5`.
 
 
