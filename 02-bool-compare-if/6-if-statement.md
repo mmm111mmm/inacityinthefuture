@@ -16,7 +16,7 @@ class Main {
   public static void(String[] args) {
     boolean raining = true;
     if(raining) {
-      System.out.println("You should take an umbrella.");
+      System.out.println("You should take an umbrella for the rain.");
     }
     System.out.println("This is the end of the weather news.");    
   }
@@ -39,7 +39,7 @@ class Main {
   public static void(String[] args) {
     boolean raining = false;
     if(raining) {
-      System.out.println("You should take an umbrella.");
+      System.out.println("You should take an umbrella for th rain.");
     }
     System.out.println("This is the end of the weather news.");    
   }
@@ -65,7 +65,7 @@ class Main {
   public static void(String[] args) {
     boolean raining = false;
     if(raining) {
-      System.out.println("You should take an umbrella.");
+      System.out.println("You should take an umbrella for the rain.");
     } else {
       System.out.println("There is no need for an umbrella.");      
     }
