@@ -1,4 +1,4 @@
-# 5. Booleans and numbers
+# 5. Booleans and comparing numbers
 
 We can make numbers produce booleans.
 
