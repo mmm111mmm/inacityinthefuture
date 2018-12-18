@@ -2,7 +2,10 @@
 
 When we decide something, we sometimes say **else**. 
 
-"If it is a weekday I will go to work, else I will stay at home."
+```
+If it is a weekday I will go to work.
+Else I will stay at home.
+```
 
 Java supports this with the `else` statement.
 
@@ -43,14 +46,18 @@ I will stay at home.
 End of if and else statement.
 ```
 
-## And if-else statement
+## More complex decisions
 
 We often ask more complex if questions.
 
-"If it is raining take an umbrella, if it is hailing take an umbrella, if you love your umbrella take an umbrella, else leave your umbrella at home."
+```
+If it is a weekday I will go to work.
+But if it is not a weekday, but there is a work emergency, I will go to work.
+But if it is not a weekday, and there is no work emergency, but I want to do more work, I will go to work.
+Else I will stay at home.
+```
 
-We have multiple `if` questions. Java supports this. It calls them `if-else` statments.
-
+The middle two lines are new. Java support this with an `if else` statement.
 
 ## Excersise
 
