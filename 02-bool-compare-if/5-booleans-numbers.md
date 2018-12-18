@@ -1,6 +1,6 @@
 # 5. Booleans and comparing numbers
 
-Comparing numbers can make booleans.
+We can compare numbers to make booleans.
 
 ## Less than
 
