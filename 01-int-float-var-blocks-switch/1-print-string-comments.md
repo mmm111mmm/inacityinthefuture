@@ -55,7 +55,7 @@ System.out.println("Hello, world!");
 
 When we add this statement, our program looks like this:
 
-**code sample 1.0**
+**code sample 0.1.0**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -66,7 +66,7 @@ class Main {
 
 A program can, and normally does, have many statements.
 
-**code sample 1.1**
+**code sample 0.1.1**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -88,7 +88,7 @@ Another way to write them is: `/* This is a comments */`
 
 Here is the above program with a comment. Normally your comments will be more useful.
 
-**code sample 1.2**
+**code sample 0.1.2**
 
 ```java
 class Main {
@@ -106,12 +106,12 @@ class Main {
 0. Go to https://repl.it and press signup, then press login, and login with your Github account
 0. Press the add button
 0. Select the Java language
-0. Type in the code you saw in code sample 1.1.
+0. Type in the code you saw in code sample 0.1.1.
 
 ## Exercises ##
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_1_0 (click on the pen icon near the top left)
+0. Save this file as java_exercise_0_1_0 (click on the pen icon near the top left)
 0. Write a program that has two statements: the first prints "My name is <insert your name here>!"`, and the second prints "Goodbye!".
 0. Add a comment that says what your program does!
 
