@@ -34,10 +34,14 @@ After that, we will declare a `switch` statement that looks at the `operator` va
 0. In the case that `operator` is `"/"`, we will print out `number1` divided by `number2`.
 0. In the default case, we will print `"Sorry I don't understand"`.
 
+## Start
+
+Now go to repl.it and call the file `project_0_calculator`.
+
 ## Running the program
 
 When you change the `number1`, `operator` and `number2` variables, you should get a different output.
 
 ## Congratulations
 
-You have finished this module!
+You finished this module!
