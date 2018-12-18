@@ -1,33 +1,46 @@
 # 7. Making more complex decisions with `if` statements 
 
+When we decide something, we sometimes say **else**. 
+
+"If it is a weekday I will go to work, else I will stay at home."
+
+Java supports this with the `else` statement.
 
 ## `else` statement
 
-But we can give the `if` statement an `else` statement.  The `else` statement is a block statement too. 
-
 The `else` statement comes after the `if` block statement.
 
-Java runs everything in the `else` block if the `if` statement is false:
+Java runs everything in the `else` block if the `if` statement is false.
 
-**code sample 1_6_2**
+The `else` statement is a block statment, so the statements within it around surrounded by a `{` and a `}`.
+
+So you type
+
+0. The word `else`
+0. An opening curly bracket, `{`
+0. All the statements 
+0. A closing curly bracket, `}`
+
+
+**code sample 1_7_0**
 ```java
 class Main {
   public static void(String[] args) {
-    boolean raining = false;
-    if(raining) {
-      System.out.println("You should take an umbrella for the rain.");
+    boolean weekday = false;
+    if(weekday) {
+      System.out.println("I will go to work.");
     } else {
-      System.out.println("There is no need for an umbrella.");      
+      System.out.println("I will stay at home.");      
     }
-    System.out.println("This is the end of the weather new.");    
+    System.out.println("End of if and else statement.");    
   }
 }
 ```
 
 The output is:
 ```
-There is no need for an umbrella.
-This is the end of the weather new.
+I will stay at home.
+End of if and else statement.
 ```
 
 ## And if-else statement
@@ -44,6 +57,7 @@ We have multiple `if` questions. Java supports this. It calls them `if-else` sta
 0. Start a new Java program on https://repl.it
 0. Save this file as java_exercise_1_6_0 (click on the pen icon near the top left)
 0. 
+
 ## Questions to answer ##
 
 0. 
