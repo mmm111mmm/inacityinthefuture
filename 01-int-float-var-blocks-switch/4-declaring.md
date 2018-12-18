@@ -2,7 +2,7 @@
 
 We currently print data without changing it:
 
-**code sample 4.0**
+**code sample 0.4.0**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -24,6 +24,8 @@ We need to tell Java about data that will change.
 We can also say: we need to tell Java about data that will *vary*.
 
 When we need to *vary* data, we use **variables**.
+
+So a **variable** is some data that will vary.
 
 ## What is a variable made of?
 
@@ -87,7 +89,7 @@ When we declare a variable, we make a **statement**. And you end statements with
 
 If you try to **declare** two variables with **same** name, Java will get confused. Java will complain. A lot!
 
-**code sample 4.2**
+**code sample 0.4.1**
 ```java
 class Main {
   public static void main(String[] args) {
