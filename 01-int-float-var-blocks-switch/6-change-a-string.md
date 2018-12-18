@@ -4,7 +4,7 @@ We learnt how to declare a string variable. And we learnt how to assign value to
 
 We also learnt how to assign a value to a variable multiple times:
 
-**code sample 6.0**
+**code sample 0.6.0**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -34,7 +34,7 @@ We then assign that to a variable: `status = status + " and healthy";`. (In this
 
 For example:
 
-**code sample 6.1**
+**code sample 0.6.1**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -59,7 +59,7 @@ We saw in a previous lesson that we can concatenate a value with another type.
 
 *But* only if the string is first:
 
-**code sample 5.2**
+**code sample 0.6.2**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -81,7 +81,7 @@ My age is...36
 ## Exercise
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_6_0 (click on the pen icon near the top left)
+0. Save this file as java_exercise_0_6_0 (click on the pen icon near the top left)
 0. Write a program that: declares and assigns a your name to a string variable, prints that, adds the string " and Java" to the end, and finally prints that.
 
 ## Questions to answer
