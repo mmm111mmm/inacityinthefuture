@@ -1,5 +1,6 @@
+# weather project
 
-# converting types, scope?, weather project
+(converting types, =+, =-, ++, --) 
 
 # Methods, return types, return statements, void, method signatures, scope?
 
