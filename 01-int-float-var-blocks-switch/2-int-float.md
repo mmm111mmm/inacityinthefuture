@@ -19,8 +19,7 @@ Whole numbers are: -2, -1, 0, 1, 2, 3, etc. We call these ints (or integers).
 
 Here's how we print an int: 
 
-**code sample 2.0:**
-
+**code sample 0.2.0**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -37,8 +36,7 @@ Floats are: 0.1, 0.2, 0.666667, 14.2, 3.14, 9.9, etc.
 
 Here's how we print an float: 
 
-**code sample 2.1:**
-
+**code sample 0.2.1**
 ```java
 class Main {
   public static void main(String[] args) {
@@ -50,7 +48,7 @@ class Main {
 ## Exercises ##
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_2_0 (click on the pen icon near the top left)
+0. Save this file as java_exercise_0_2_0 (click on the pen icon near the top left)
 0. Write a program that prints four lines. On the first if your name. On the second is a number. On the third is a float.
 
 ## Questions to answer ##
