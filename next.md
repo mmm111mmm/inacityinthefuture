@@ -7,10 +7,10 @@
 
 # Loops?
 
-# Objects, Strings, Scanner, 
+# Objects, Strings, Scanner, literals
 
 # ArrayList, Maps
 
 # Enums
 
-# Classes
+# Files, classes, methods, static, properties, visibility, extending, implementing, default implentation
