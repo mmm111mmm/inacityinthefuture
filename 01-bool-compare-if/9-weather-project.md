@@ -51,3 +51,19 @@ Our logic will be like this. *(note: there will be multiple if statements.)*
 * If there is less than or equal to 160 minutes of sunshine, don't wear sunglasses
 * If it is raining, take an umbrella
 * If it is not raining, don't take an umbrella
+
+## Design of the project 2
+
+Our project will run some if else statements that look at the variables for rain, temperature and minutes of sunlight. These variables will be about the weather in the morning. In the if else statements we will use `System.out.println` to tell the user if they should wear a coat or not, wear jeans or shorts, wear sunglasses or not or wear a coat or not.
+
+It will then do the same thing looking at variables for the weather in the afternoon. And it will print out as above.
+
+It will then do the same thing looking at variables for the weather in the evening. And it will print out as above.
+
+## Duplication
+
+The if-else statements for the morning, afternoon and evening will be the same except they will look at different variables. Don't worry. In the next module we'll fix this.
+
+## Congratuations
+
+You've now completed a project that demonstrates everything we learnt in this module.
