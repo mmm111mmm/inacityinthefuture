@@ -46,26 +46,17 @@ I will stay at home.
 End of if and else statement.
 ```
 
-## More complex decisions
-
-We often ask more complex if questions.
-
-```
-If it is a weekday I will go to work.
-If it is not a weekday, but there is a work emergency, I will go to work.
-If it is not a weekday, and there is no work emergency, but I want to do more work, I will go to work.
-Else I will stay at home.
-```
-
-The middle two lines are new. Java support this with `if else` statements.
-
 ## Excersise
 
 0. Start a new Java program on https://repl.it
-0. Save this file as java_exercise_1_6_0 (click on the pen icon near the top left)
-0. 
+0. Save this file as java_exercise_1_7_0 (click on the pen icon near the top left)
+0. Make a program with the boolean `sunshine` which is `true`.
+0. Make an `if` statement with an `else` statement
+0. If `sunshine` is `true` print `"Let's go outside!"
+0. if `sunshine` is `false` print `"Let's watch a film!"`
 
 ## Questions to answer ##
 
-0. 
+0. When do the statements within an `else` block run?
+0. What comes before an `else` block statement?
 
