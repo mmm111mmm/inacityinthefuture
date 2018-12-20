@@ -1,4 +1,4 @@
-# 8. Making more complex decisions with **if else** statements 
+# 8. Making more complex decisions with `if else` statements 
 
 We use if statements everyday. And we use else statement everyday.
 
