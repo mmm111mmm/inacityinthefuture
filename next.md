@@ -1,6 +1,3 @@
-# weather project
-
-(converting types, =+, =-, ++, --) 
 
 # Methods, return types, return statements, void, method signatures, scope?
 
@@ -15,3 +12,5 @@
 # Enums
 
 # Files, classes, methods, static, properties, visibility, extending, implementing, default implentation
+
+(converting types, =+, =-, ++, --) 
