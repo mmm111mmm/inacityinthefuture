@@ -31,18 +31,18 @@ For example:
 ```java
 class Main {
   public static void main(String[] args) {
-    boolean weekday = false;
-    boolean workEmergency = false;
-    boolean iWantToWork = true;
+    boolean money = false;
+    boolean friendPays = false;
+    boolean foodIsFree = true;    
     
-    if(weekday) {
-      System.out.println("I will go to work because it's a weekday");
-    } else if(workEmergency) {
-      System.out.println("I will go to work because it's an emergency");
-    } else if(iWantToWork) {      
-      System.out.println("I will go to work because I want to work");    
+    if(money) {
+      System.out.println("I will eat in a restaurant because I have the money.");
+    } else if(friendPays) {
+      System.out.println("I will eat in a restaurant because my friend will pay.");
+    } else if(foodIsFree) {      
+      System.out.println("I will eat in a restaurant because the food is free.");    
     } else {
-      System.out.println("I will not go to work.");        
+      System.out.println("I will not eat in a restaurant.");        
     }
   }
 }
@@ -51,7 +51,7 @@ class Main {
 The output is:
 
 ```
-I will go to work because I want to work.
+I will eat in a restaurant because the food is free.
 ```
 
 ## Worked example 1
@@ -59,18 +59,18 @@ I will go to work because I want to work.
 The booleans are like this:
 
 ```java
-    boolean weekday = false;
-    boolean workEmergency = false;
-    boolean iWantToWork = true;
+    boolean money = false;
+    boolean friendPays = false;
+    boolean foodIsFree = true;
 ```
 
 So it works like this: 
 
-The `if` statement looks at `weekday`. It is `false`, so we skip the first `if` statement. 
+The `if` statement looks at `money`. It is `false`, so we skip the first `if` statement. 
 
-Then the first `else if` statement looks at `workEmergency`. It is `false`, so we skip this `else if` statement. 
+Then the first `else if` statement looks at `friendPays`. It is `false`, so we skip this `else if` statement. 
 
-Then the second `else if` statement looks at `iWantToWork`. It is `true`, so we print `"I will go to work because I want to work""`.
+Then the second `else if` statement looks at `foodIsFree`. It is `true`, so we print `"I will eat in a restaurant because the food is free."`.
 
 Because the second `else if` statement was `true`, we skip the `else` statement.
 
@@ -79,33 +79,16 @@ Because the second `else if` statement was `true`, we skip the `else` statement.
 Imagine the booleans are like this:
 
 ```java
-    boolean weekday = true;
-    boolean workEmergency = true;
-    boolean iWantToWork = true;
+    boolean money = true;
+    boolean friendPays = true;
+    boolean foodIsFree = true;    
 ```
 
 It works like this: 
 
-The `if` statement looks at `weekday`. It is `true`, so we print `"I will go to work because it's a weekday"`
+The `if` statement looks at `money`. It is `true`, so we print `"I will eat in a restaurant because I have the money."`
 
 Because the `if` statement was `true`, we skip the `else if` statements and the `else` statement.
-
-## Worked example 2
-
-Imagine the booleans are like this:
-
-```java
-    boolean weekday = true;
-    boolean workEmergency = true;
-    boolean iWantToWork = true;
-```
-
-So it works like this: 
-
-The `if` statement looks at `weekday`. It is `true`, so we print `"I will go to work because it's a weekday"`
-
-Because the `if` statement was `true`, we skip the `else if` statements and the `else` statement.
-
 
 ## Excersise
 
