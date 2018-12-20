@@ -94,7 +94,12 @@ Because the `if` statement was `true`, we skip the `else if` statements and the 
 
 0. Start a new Java program on https://repl.it
 0. Save this file as java_exercise_1_6_0 (click on the pen icon near the top left)
-0. 
+0. Make a program that has the booleans `weekday`, `workEmergency` and `iWantToWork` that are all `false`.
+0. If it's a weekday print `"I'll work because it's a weekday"`
+0. If it's not a weekday, but there's a work emergency print `"I'll work because there's a work emergency"`.
+0. If it's not a weekday, and there's no work emergency, but you want to work print `"I'll work because I want to."`
+0. Otherwise print `"I will not work today."`
+0. Now change the booleans so `"I'll work because I want to."` is printed
 
 ## Questions to answer ##
 
