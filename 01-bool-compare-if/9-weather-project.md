@@ -29,7 +29,7 @@ We will use booleans at the moment. In later lessons we will learn how to get th
 
 Then we will update this project.
 
-## Design of the project
+## Design of the project 1
 
 We will use booleans to specify the weather. The weather can be very complex but we will simplify the weather for our program. 
 
@@ -73,6 +73,21 @@ The if-else statements for the morning, afternoon and evening will be the same e
 ## Start
 
 Now go to repl.it and call the file `project_1_weather`.
+
+## Tests
+
+Make sure your project does this:
+
+0. If the morning weather is raining, has a temperature above 20.0, then use see the text `"Wear a coat"`
+0. If the morning weather is not raining, has a temperature above 20.0, then use see the text `"Don't wear a coat"`
+0. If the morning weather is not raining, has a temperature above 20.0, then use see the text `"Wear shorts"`
+0. If the morning weather is raining, has a temperature above 20.0, then use see the text `"Wear jeans"`
+0. If the morning weather is raining, has a temperature above 20.0, then use see the text `"Take an umbrella"`
+0. If the morning weather is not raining, has a temperature above 20.0, then use see the text `"Don't an umbrella"`
+0. If the morning weather is raining, and we have 180 minutes of sunshine, then use see the text `"Wear sunglasses"`
+0. If the morning weather is raining, and we have 160 minutes of sunshine, then use see the text `"Don't sunglasses"`
+
+Make sure this is also true for the weather in the afternoon and evening.
 
 ## Congratuations
 
