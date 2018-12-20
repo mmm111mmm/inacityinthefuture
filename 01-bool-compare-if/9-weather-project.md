@@ -25,7 +25,7 @@ For the morning, afternoon and evening.
 
 We can get the weather data from the internet. But we have not learnt enough Java for that yet.
 
-So we will use booleans at the moment. In later lessons we will learn how to get the weather data from the internet.
+We will use booleans at the moment. In later lessons we will learn how to get the weather data from the internet.
 
 Then we will update this project.
 
@@ -60,9 +60,19 @@ It will then do the same thing looking at variables for the weather in the after
 
 It will then do the same thing looking at variables for the weather in the evening. And it will print out as above.
 
+## Design of the project 3
+
+We cannot (yet) get the weather data from the internet.
+
+So for this project, make the booleans for the morning, afternoon and evening different.
+
 ## Duplication
 
 The if-else statements for the morning, afternoon and evening will be the same except they will look at different variables. Don't worry. In the next module we'll fix this.
+
+## Start
+
+Now go to repl.it and call the file `project_1_weather`.
 
 ## Congratuations
 
