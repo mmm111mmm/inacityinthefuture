@@ -90,7 +90,7 @@ The `if` statement looks at `money`. It is `true`, so we print `"I will eat in a
 
 Because the `if` statement was `true`, we skip the `else if` statements and the `else` statement.
 
-## Excersise
+## Exercise
 
 0. Start a new Java program on https://repl.it
 0. Save this file as java_exercise_1_6_0 (click on the pen icon near the top left)
@@ -103,5 +103,6 @@ Because the `if` statement was `true`, we skip the `else if` statements and the 
 
 ## Questions to answer ##
 
-0. 
+0. What comes before else-if statements?
+0. Give an example of an if, else-if and else statment in real life.
 
