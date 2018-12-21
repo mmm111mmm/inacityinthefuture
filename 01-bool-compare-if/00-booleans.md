@@ -12,7 +12,7 @@ But it is very powerful. And we will see how in the next lessons.
 
 ## Using a boolean
 
-We declare a boolean with the name `boolean`. And we can assign to is as `true` or `false`.
+We declare a boolean with the name `boolean`. And a boolean's value is `true` or `false`.
 
 **code sample 1.0.0**
 ```
