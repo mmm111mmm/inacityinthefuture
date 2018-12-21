@@ -54,21 +54,22 @@ Our logic will be like this. *(note: there will be multiple if statements.)*
 
 ## Design of the project 2
 
-Our project will run some if else statements that look at the variables for rain, temperature and minutes of sunlight. These variables will be about the weather in the morning. In the if else statements we will use `System.out.println` to tell the user if they should wear a coat or not, wear jeans or shorts, wear sunglasses or not or wear a coat or not.
+We will first set the boolean for raining, the float for temperature and the int for minutes of sunshine.
 
-It will then do the same thing looking at variables for the weather in the afternoon. And it will print out as above.
+Then we will have `if`, `if else` and `else` statements. They will deal with the above logic.
 
-It will then do the same thing looking at variables for the weather in the evening. And it will print out as above.
+In the if else statements we will use `System.out.println` to tell the user if they should wear a coat or not, etc.
 
-## Design of the project 3
+We will do the same thing but we will use a new boolean, int and float for the afternoon weather.
 
-We cannot (yet) get the weather data from the internet.
+We will do the same thing but we will use a new boolean, int and float for the evening weather.
 
-So for this project, make the booleans for the morning, afternoon and evening different.
 
 ## Duplication
 
-The if-else statements for the morning, afternoon and evening will be the same except they will look at different variables. Don't worry. In the next module we'll fix this.
+Your program should have duplicated `if`, `if else` and `else` statements but with different boolean variables for the morning, afternoon and evening.
+
+Don't worry. We will fix this in the next module.
 
 ## Start
 
