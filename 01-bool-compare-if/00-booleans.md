@@ -2,15 +2,13 @@
 
 ## A new data type
 
-We learnt about ints, floats and strings.
+We learnt about ints, floats and strings. 
 
-But there is another very important data type: a boolean.
-
-This is named after a man called George Bool.
+There is another important data type: a boolean. This is named after a man called George Bool.
 
 It is a very simple data type. It can either be `true` or `false`.
 
-But it is very powerful. And in later lessons we will see how.
+But it is very powerful. And we will see how in the next lessons.
 
 ## Using a boolean
 
@@ -39,8 +37,6 @@ class Main {
   }
 }
 ```
-
-In the next lessons, we will look at booleans a lot more.
 
 ## Questions to answer ##
 
