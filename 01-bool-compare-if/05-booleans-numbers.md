@@ -91,7 +91,7 @@ class Main {
 
 We can use `>`, `>=`, `<`, `<=` and `==` with floats too.
 
-But we cannot mix comparing ints and floats. (But we will learn how to later)
+But we cannot mix comparing ints and floats. (But we will learn how later)
 
 **code sample 1_5_4**
 ```java
