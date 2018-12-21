@@ -4,7 +4,7 @@ We can compare numbers to make booleans.
 
 ## Less than
 
-You do this everyday: "If the price is less than 10, do not buy the drink".
+You do this everyday: "If the price is less than 10, buy the drink".
 
 We call this **"less than"**. And we type `<`. 
 
