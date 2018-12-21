@@ -44,7 +44,8 @@ class Main {
     boolean nighttime = true;
     boolean hot = true;
     boolean needFood = true;
-    System.out.println("I will go outside: " + !nightime && hot || needFood);
+    boolean iWillGoOutside = !nightime && hot || needFood;
+    System.out.println("I will go outside: " + iWillGoOutside);
   }
 }
 ```
@@ -52,17 +53,15 @@ class Main {
 0. `nighttime` is `true` and `hot` is `true`.
 0. We use `!nighttime` so this makes it `false.
 0. So `!nighttime && hot` is `false && true`
-0. And that means it's `false`. 
+0. And that means (so far) `iWillGoOutside` is `false`.
 
 This is the same as the above sentence: "It's hot but it's night-time. So we stay home"
 
-Imagine it's hot but it's night-time. Then we stay home. But we need food, so we go outside.
-
-Let's take this and look at: "But we need food, so we go outside."
+Let's take this and look at the next part: "But we need food, so we go outside."
 
 0. We take that `false` from above and do `false || needFood`.
 0. `needFood` is `true` so this makes `false || true`
-0. So the result is `true`.
+0. So `iWillGoOutside` is `true`.
 
 ## Excersise
 
