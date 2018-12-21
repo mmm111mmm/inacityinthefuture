@@ -3,9 +3,9 @@
 Sometimes we use multiple **if** statements when we decide.
 
 ```
-If I have the money, I will eat in a restaurant
+If I have the money, I will eat in a restaurant.
 If I don't have the money, but my friend pays, I will eat in a restaurant.
-If I don't have the money, and my friend doesn't pay, but the food is free, I will eat in a restaurant
+If I don't have the money, and my friend doesn't pay, but the food is free, I will eat in a restaurant.
 Else I will stay at home.
 ```
 
