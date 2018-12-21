@@ -13,7 +13,7 @@ Java supports this with the `else` statement.
 
 The `else` statement comes after the `if` block statement.
 
-Java runs everything in the `else` block if the `if` statement is false.
+Java runs everything in the `else` block if the `if` statement is `false`.
 
 The `else` statement is a block statment, so a `{` and a `}` surrounds the statements in the `else`.
 
