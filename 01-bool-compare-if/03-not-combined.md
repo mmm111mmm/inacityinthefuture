@@ -53,7 +53,12 @@ class Main {
 0. We use `!nighttime` so this makes it `false.
 0. So `!nighttime && hot` is `false && true`
 0. And that means it's `false`. 
-0. We take that `false` and do `false || needFood`.
+
+This is the same as the English sentence: "If it's nighttime and it's hot, I will not go outside."
+
+Let's take this and look at: "But if I need food I will go out in any weather."
+
+0. We take that `false` from above and do `false || needFood`.
 0. `needFood` is `true` so this makes `false || true`
 0. So the result is `true`.
 
