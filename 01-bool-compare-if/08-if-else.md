@@ -19,7 +19,7 @@ Lines two and three are called **else if** statements.
 
 You use `else if` statements by:
 
-0. After the an `if` block statement, you type `else if`
+0. After an `if` block statement, you type `else if`
 0. Then you type an openining parenthesis, `(`
 0. The name of a boolean variable, boolean variables using `||` and `&& `etc, or `true` or `false`
 0. A closing parenthesis `)`
