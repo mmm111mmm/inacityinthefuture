@@ -58,15 +58,13 @@ I will eat in a restaurant because the food is free.
 
 ## Worked example 1
 
-The booleans are like this:
+Let's look at the above **if else** statement again. The booleans are like this:
 
 ```java
     boolean money = false;
     boolean friendPays = false;
     boolean foodIsFree = true;
 ```
-
-So it works like this: 
 
 The `if` statement looks at `money`. It is `false`, so we skip the first `if` statement. 
 
