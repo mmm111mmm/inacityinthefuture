@@ -51,7 +51,7 @@ class Main {
 ```
 
 0. `nighttime` is `true` and `hot` is `true`.
-0. We use `!nighttime` so this makes it `false.
+0. We use `!nighttime` so this makes it `false`.
 0. So `!nighttime && hot` is `false && true`
 0. And that means (so far) `iWillGoOutside` is `false`.
 
