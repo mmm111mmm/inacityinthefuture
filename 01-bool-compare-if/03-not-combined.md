@@ -4,9 +4,9 @@
 
 The final boolean operation is the **boolean not**. And this is very simple. 
 
-If the boolean is `true`, a **boolean not** makes it `false`. If the boolean is `false` a **boolean not** makes it `true`.
+If the boolean is `true`, a **boolean not** makes it `false`. If the boolean is `false`, a **boolean not** makes it `true`.
 
-We type `!` before the boolean variable to make it false:
+We type `!` before a boolean variable to use a **boolean not**
 
 **code sample 1.3.0**
 ```
