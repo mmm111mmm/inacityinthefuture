@@ -29,7 +29,7 @@ The weather is hot: false
 
 ## Combined boolean logic
 
-We can combine the logic we learnt previously. 
+We can combine boolean logic.
 
 For example, we can say: "If it is hot and is not night-time, I will go outside. However, if I have no food I will go outside, in any weather or anytime."
 
