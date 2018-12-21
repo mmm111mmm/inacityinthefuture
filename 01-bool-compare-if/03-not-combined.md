@@ -33,7 +33,7 @@ We can combine boolean logic.
 
 For example, we can say: "If it is hot and is not night-time, I will go outside. However, if I have no food I will go outside, in any weather or anytime."
 
-Imagine it's hot but it's night-time. Then we stay home. But we need food, so we go outside.
+Imagine it's hot but it's night-time. So we stay home. But we need food, so we go outside.
 
 In Java this is: 
 
@@ -54,9 +54,11 @@ class Main {
 0. So `!nighttime && hot` is `false && true`
 0. And that means it's `false`. 
 
-This is the same as the English sentence: "If it's nighttime and it's hot, I will not go outside."
+This is the same as the above sentence: "It's hot but it's night-time. So we stay home"
 
-Let's take this and look at: "But if I need food I will go out in any weather."
+Imagine it's hot but it's night-time. Then we stay home. But we need food, so we go outside.
+
+Let's take this and look at: "But we need food, so we go outside."
 
 0. We take that `false` from above and do `false || needFood`.
 0. `needFood` is `true` so this makes `false || true`
