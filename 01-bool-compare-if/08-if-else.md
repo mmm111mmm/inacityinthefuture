@@ -1,8 +1,6 @@
 # 8. Making more complex decisions with `if else` statements 
 
-We use if statements everyday. And we use else statement everyday.
-
-Sometimes we use multiple **if** statements.
+Sometimes we use multiple **if** statements when we decide.
 
 ```
 If I have the money, I will eat in a restaurant
@@ -11,7 +9,11 @@ If I don't have the money, and my friend doesn't pay, but the food is free, I wi
 Else I will stay at home.
 ```
 
-The middle two lines are new. They are called **else if** statements.
+We have four possible decisions. 
+
+Java looks at the possible decisions from the top to the bottom. If one is true, it skips the rest.
+
+Lines two and three are called **else if** statements.
 
 ## How to use `else if` statements
 
@@ -19,7 +21,7 @@ You use `else if` statements by:
 
 0. After the an `if` block statement, you type `else if`
 0. Then you type an openining parenthesis, `(`
-0. The name of a boolean variable, boolean variables using || and && etc, or true or false
+0. The name of a boolean variable, boolean variables using `||` and `&& `etc, or `true` or `false`
 0. A closing parenthesis `)`
 0. You start the block statement with a `{`
 0. Your statements (System.out.println at the moment)
