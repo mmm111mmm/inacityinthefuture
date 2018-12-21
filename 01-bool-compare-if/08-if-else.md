@@ -11,7 +11,7 @@ Else I will stay at home.
 
 We have four possible decisions. 
 
-Java looks at the possible decisions from the top to the bottom. If one is true, it skips the rest.
+Java looks at the decisions from top to bottom. If one is true Java skips the rest.
 
 Lines two and three are called **else if** statements.
 
