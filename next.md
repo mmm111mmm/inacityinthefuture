@@ -16,3 +16,5 @@
 (converting types, =+, =-, ++, --)
 
 (float and double)
+
+(quotation marks in strings)
