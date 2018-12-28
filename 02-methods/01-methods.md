@@ -43,7 +43,7 @@ class Main {
 }
 ```
 
-## The method name, `main`
+## The method `main`
 
 We used the method name `main`. This is special in Java.
 
@@ -53,7 +53,7 @@ The main method must also contain `(String[] args)`.
 
 But our other methods can just contain `()`. (We will look at this next lesson).
 
-## Other method names
+## Other methods and method names
 
 After the `main` method, we can have other methods. But they must have different names.
 
