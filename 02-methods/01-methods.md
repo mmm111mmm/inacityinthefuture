@@ -47,11 +47,46 @@ class Main {
 
 ## The method name
 
-We have used the method name `main` so far. This is special in Java.
+We used the method name `main`. This is special in Java.
 
-You must have one (and only one) `main` method. Java looks for this method to start your program.
+We must have one (and only one) `main` method. Java looks for this method to start your program.
 
 ## Other method names
 
-We can use many methods. But they must be called different things (and `main` must always exist).
+After the `main` method, we can have other methods. But they must have different names.
 
+```
+class Main {
+  public static void main(String[] args) {
+    ...
+  }
+  public static void hello(String[] args) {
+    ...
+  }
+  public static void helloAgain(String[] args) {
+    ...
+  }
+}
+```
+
+We have two extra methods, `hello` and `helloAgain`.
+
+## What is `String[] args`?
+
+The `main` method must have `(String[] args)`. We will explain this later.
+
+But our other methods don't need it. But we will explain in next lesson. For now, let's just remove them:
+
+```
+class Main {
+  public static void main(String[] args) {
+    ...
+  }
+  public static void hello() {
+    ...
+  }
+  public static void helloAgain() {
+    ...
+  }
+}
+```
