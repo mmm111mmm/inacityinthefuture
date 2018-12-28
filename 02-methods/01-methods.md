@@ -19,7 +19,7 @@ We told you to ignore these lines (just type them) at the start of the course.
 
 Now we will explain them (or at least partially).
 
-## Explaining the method
+## Explaining methods
 
 The method you typed many times starts like this `public static void main(String[] args)`.
 
@@ -28,9 +28,9 @@ It contains
 0. the word `public`
 0. the word `static`
 0. the word `void`
-0. its name -- we will look at this later
+0. its name (we will look at this below)
 0. an openening parenthesis, `(`
-0. the text `String[] args` -- which we look at later
+0. the text `String[] args` (which we look at later)
 0. a closing parenthesis, `)`
 
 Methods (like `if` and `switch` statements) are "blocks" of code. So they start and end with curley brackets, `{` and `}`.
@@ -44,3 +44,14 @@ class Main {
   }
 }
 ```
+
+## The method name
+
+We have used the method name `main` so far. This is special in Java.
+
+You must have one (and only one) `main` method. Java looks for this method to start your program.
+
+## Other method names
+
+We can use many methods. But they must be called different things (and `main` must always exist).
+
