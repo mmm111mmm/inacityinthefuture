@@ -49,22 +49,33 @@ We used the method name `main`. This is special in Java.
 
 We must have one (and only one) `main` method. Java looks for this method to start our program.
 
-The main method must also contain `(String[] args)`. But our other methods can just contain `()`.
+The main method must also contain `(String[] args)`. 
+
+But our other methods can just contain `()`. (We will look at this next lesson).
 
 ## Other method names
 
 After the `main` method, we can have other methods. But they must have different names.
 
+Our methods should have statements in them:
+
 ```
 class Main {
+  
   public static void main(String[] args) {
     ...
   }
+
   public static void hello() {
-    ...
+    System.out.println("I am in them method called 'hello'.")
+    System.out.println("Goodbye from 'hello!'")
   }
+  
   public static void helloAgain() {
-    ...
+    System.out.println("I am in them method called 'helloAgain'.")
+    System.out.println("Goodbye from 'helloAgain!'")  
   }
+  
 }
 ```
+
