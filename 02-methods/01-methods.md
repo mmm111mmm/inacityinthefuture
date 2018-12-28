@@ -33,4 +33,14 @@ It contains
 0. the text `String[] args` -- which we look at later
 0. a closing parenthesis, `)`
 
-Like `if` and `switch` statements methods are "blocks" of code. This means they start and end with curley brackets, `{` and `}`.
+Methods (like `if` and `switch` statements) are "blocks" of code. So they start and end with curley brackets, `{` and `}`.
+
+Inside these curley brackets we have statements:
+
+```
+class Main {
+  public static void main(String[] args) {
+    System.out.println("I am the only statement in this method");
+  }
+}
+```
