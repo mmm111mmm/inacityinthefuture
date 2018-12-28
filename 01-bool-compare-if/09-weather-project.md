@@ -42,7 +42,7 @@ The weather can:
 Our logic will be like this. *(note: there will be multiple if statements.)*
 
 * If it is raining, take a coat
-* If it is not raining, and below 20.0, take a coat
+* If it is not raining, and below or equal to 20.0, take a coat
 * If it not raining, and the temperature is above 20.0, don't take a coat
 * If it above 20.0 degrees, wear shorts
 * If it is below or equal to 20.0, wear jeans
@@ -64,6 +64,25 @@ We will do the same thing but we will use a new boolean, int and float for the a
 
 We will do the same thing but we will use a new boolean, int and float for the evening weather.
 
+## Sample output
+
+```
+IN THE MORNING:
+Take a coat
+Wear jeans
+Wear sunglasses
+Don't take an umbrella
+IN THE AFTERNOON:
+Take a coat
+Wear jeans
+Wear sunglasses
+Don't take an umbrella
+IN THE EVENING:
+Take a coat
+Wear jeans
+Don't wear sunglasses
+Take an umbrella
+```
 
 ## Duplication
 
