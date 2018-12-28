@@ -57,7 +57,9 @@ But our other methods can just contain `()`. (We will look at this next lesson).
 
 After the `main` method, we can have other methods. But they must have different names.
 
-Our methods should have statements in them:
+Method names can contain letters, underscores and numbers, but they must start with a letter or underscore, and cannot include spaces.
+
+And our methods should have statements in them:
 
 ```
 class Main {
