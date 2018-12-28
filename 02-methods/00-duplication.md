@@ -12,6 +12,7 @@ Here's an example of the same problem:
 ```java
 class Main {
   public static void main(String[] args) {
+  
     float morningWeatherTemperature = 18.0f;
     
     if(morningWeatherTemperature > 23.0f) {
