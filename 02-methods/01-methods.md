@@ -25,13 +25,11 @@ The method starts like this `public static void main(String[] args)`.
 
 It contains
 
-0. the word `public` (we will look at this much later)
-0. the word `static` (we will look at this much later)
-0. the word `void` (we will look at this in a few lessons)
-0. its name, `main` (we will look at this below)
-0. an openening parenthesis, `(`
-0. the text `String[] args` (we will look at this in a few lessons)
-0. a closing parenthesis, `)`
+0. the word `public` -- we will look at this later
+0. the word `static`  -- we will look at this later
+0. the word `void` -- we will look at this in a few lessons
+0. its name, `main` -- we will look at this now
+0. an openening parenthesis, `(`, the text `String[] args` and a closing parenthesis, `)`  -- we will look at this in a few lessons
 
 Methods (like `if` and `switch` statements) are "blocks" of code. So they start and end with curley brackets, `{` and `}`.
 
