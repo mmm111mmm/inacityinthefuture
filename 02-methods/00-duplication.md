@@ -53,36 +53,12 @@ The logc in the if-else statments is the same. Only the variables differ.
 
 In Java we use methods to remove this duplication. (In some languages, functions are used and do a similar thing).
 
-A method tells Java to do the something many times but you only type the method once.
+A method tells Java to do the something. You can do this something many times. But you only type the method once.
 
-## What does a method look like?
+## Excerise
 
-You know this already. But you don't know you know. Look at this outline of Java program:
+0. No exericses so far but we'll have one next lesson
 
-```
-class Main {
-  public static void main(String[] args) {
-  }
-}
-```
+## Questions
 
-Lines two and three are the start and end of a method.
-
-We told you to ignore these lines (just type them) at the start of the course.
-
-Now we will explain them (or at least partially).
-
-## Explaining the method
-
-The method you typed many times starts like this `public static void main(String[] args)`.
-
-It contains
-
-0. the word `public`
-0. the word `static`
-0. the word `void`
-0. its name -- we will look at this later
-0. an openening parenthesis, `(`
-0. the text `String[] args` -- which we look at later
-0. a closing parenthesis, `)`
-
+0. What does a method do?
