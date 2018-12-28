@@ -1,10 +1,10 @@
-## 0. Duplication and methods
+# 0. Duplication and methods
 
 In our weather project there was duplication.
 
 We had the same if-else statements. The variables were different but the statements were the same.
 
-# Another example of duplication
+## Another example of duplication
 
 Here's an example of the same problem:
 
