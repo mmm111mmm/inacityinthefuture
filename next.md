@@ -3,9 +3,7 @@
 
 # Arrays, Loops
 
-# Objects, Strings, Scanner, literals
-
-# ArrayList, Maps
+# literal, Objects, Strings, Scanner, ArrayList, Maps
 
 # Enums
 
