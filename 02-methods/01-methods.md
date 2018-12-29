@@ -94,6 +94,7 @@ class Main {
     hello();
     helloAgain();
     hello();
+    System.out.println("End of program.")    
   }
 
   public static void hello() {
@@ -118,5 +119,11 @@ I am in the method called 'helloAgain'.
 Goodbye from 'helloAgain!`.
 I am in the method called 'hello'.
 Goodbye from 'hello!`.
+End of program.
 ```
 
+Java starts in the `main` method. It then performs all the statements in `hello`. It then returns to `main` and see the `helloAgain()` method call. It then performs all the statements in `helloAgain`. It then returns to `main` and see the `hello()` method call.  It then performs all the statements in `hello` (again). It finally prints out "End of program." in `main`.
+
+## Exercises
+
+## Questions
