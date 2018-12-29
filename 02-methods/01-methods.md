@@ -43,9 +43,9 @@ class Main {
 
 ## The method `main`
 
-We used the method name `main`. This is special in Java.
+We used the method name, `main`, before. This is special in Java.
 
-We must have only one `main` method. Java looks for this method to start our program.
+Java looks for this method to start our program.
 
 The main method must contain `(String[] args)`.  But our other methods can just contain `()`. (We will look at this next lesson).
 
