@@ -127,3 +127,6 @@ Java starts in the `main` method. It sees the call to the `hello` method. It the
 ## Exercises
 
 ## Questions
+
+0. What does calling a method do?
+0. What method does Java look at first?
