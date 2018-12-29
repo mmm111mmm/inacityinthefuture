@@ -19,9 +19,9 @@ We told you to ignore these lines (just type them) at the start of the course.
 
 Now we will explain them.
 
-## What makes up a methods?
+## What makes up a method?
 
-The method starts like this `public static void main(String[] args)`.
+The method starts like this: `public static void main(String[] args)`.
 
 It contains
 
