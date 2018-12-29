@@ -83,9 +83,9 @@ class Main {
 
 The `main` method is where Java starts.
 
-From `main`, we then **call** other methods.
+From `main`, we then **call** other methods. When we **call** them we perform all the statments in that method. And then go back to `main`.
 
-We call the method by typing itself name, then `()` and finally a semi-colon, `;`, because calling a method is a statement;
+We call the method by typing itself name, then `()` and finally a semi-colon, `;` (because calling a method is a statement).
 
 ```
 class Main {
@@ -122,7 +122,7 @@ Goodbye from 'hello!`.
 End of program.
 ```
 
-Java starts in the `main` method. It then performs all the statements in `hello`. It then returns to `main` and see the `helloAgain()` method call. It then performs all the statements in `helloAgain`. It then returns to `main` and see the `hello()` method call.  It then performs all the statements in `hello` (again). It finally prints out "End of program." in `main`.
+Java starts in the `main` method. It sees the call to the `hello` method. It then performs all the statements in `hello`. It then returns to `main` and see the `helloAgain()` method call. It then performs all the statements in `helloAgain`. It then returns to `main` and see the `hello()` method call.  It then performs all the statements in `hello` (again). It finally prints out "End of program." in `main`.
 
 ## Exercises
 
