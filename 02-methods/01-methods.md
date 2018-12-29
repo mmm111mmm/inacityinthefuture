@@ -5,9 +5,7 @@ We will use methods to reduce this duplication that we mentioned..
 
 ## What does a method look like?
 
-You know what they look like. But you don't know you know. 
-
-Look at this outline of Java program:
+You know what they look like. Look at this outline of Java program:
 
 ```
 class Main {
