@@ -53,7 +53,7 @@ The logc in the if-else statments is the same. Only the variables differ.
 
 In Java we use methods to remove this duplication. (In some languages, functions are used and do a similar thing).
 
-A method tells Java to do the something. You can do this something many times. But you only type the method once.
+A method tells Java to perform some statements. You can do this something many times. But you only type the method once.
 
 In the next lessons we will look at methods. At the end of the lessons you will use methods to remove this duplication.
 
