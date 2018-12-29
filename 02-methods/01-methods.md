@@ -17,9 +17,7 @@ class Main {
 
 Lines two and four are the start and end of a method.
 
-We told you to ignore these lines (just type them) at the start of the course.
-
-Now we will explain them.
+We told you to ignore these lines (just type them) before. Now we will explain them.
 
 ## What makes up a method?
 
