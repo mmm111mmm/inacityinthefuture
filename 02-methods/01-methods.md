@@ -67,13 +67,13 @@ class Main {
   }
 
   public static void hello() {
-    System.out.println("I am in the method called 'hello'.")
-    System.out.println("Goodbye from 'hello!'")
+    System.out.println("I am in the method called 'hello'.");
+    System.out.println("Goodbye from 'hello!'");
   }
   
   public static void helloAgain() {
-    System.out.println("I am in them method called 'helloAgain'.")
-    System.out.println("Goodbye from 'helloAgain!'")  
+    System.out.println("I am in them method called 'helloAgain'.");
+    System.out.println("Goodbye from 'helloAgain!'");
   }
   
 }
@@ -94,17 +94,17 @@ class Main {
     hello();
     helloAgain();
     hello();
-    System.out.println("End of program.")    
+    System.out.println("End of program.");
   }
 
   public static void hello() {
-    System.out.println("I am in the method called 'hello'.")
-    System.out.println("Goodbye from 'hello!'.")
+    System.out.println("I am in the method called 'hello'.");
+    System.out.println("Goodbye from 'hello!'.");
   }
   
   public static void helloAgain() {
-    System.out.println("I am in them method called 'helloAgain'.")
-    System.out.println("Goodbye from 'helloAgain!'.")  
+    System.out.println("I am in them method called 'helloAgain'.");
+    System.out.println("Goodbye from 'helloAgain!'.");
   }
   
 }
