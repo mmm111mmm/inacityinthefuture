@@ -1,5 +1,9 @@
 
-# What does a method look like?
+# Methods
+
+We will use methods to reduce this duplication that we mentioned previously.
+
+## What does a method look like?
 
 You know what they look like. But you don't know you know. 
 
@@ -21,9 +25,7 @@ Now we will explain them.
 
 ## What makes up a method?
 
-The method starts like this: `public static void main(String[] args)`.
-
-It contains
+The method starts like this: `public static void main(String[] args)`. It contains:
 
 0. the word `public` -- we will look at this later
 0. the word `static`  -- we will look at this later
