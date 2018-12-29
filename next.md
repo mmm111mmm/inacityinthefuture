@@ -9,7 +9,7 @@
 
 # Enums
 
-# Files, classes, methods, static, properties, visibility, extending, implementing, default implentation
+# Files, classes, static, properties, visibility, extending, implementing, default implentation
 
 (converting types, =+, =-, ++, --)
 
