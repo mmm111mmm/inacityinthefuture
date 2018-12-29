@@ -87,7 +87,7 @@ The `main` method is where Java starts.
 
 From `main`, we then **call** other methods. When we **call** them we perform all the statments in that method. And then go back to where we were before we called the method.
 
-We call the method by typing itself name, then `()` and finally a semi-colon, `;` (because calling a method is a statement).
+We call the method by typing its name, then `()` and finally a semi-colon, `;` (because calling a method is a statement).
 
 ```
 class Main {
