@@ -55,6 +55,8 @@ In Java we use methods to remove this duplication. (In some languages, functions
 
 A method tells Java to do the something. You can do this something many times. But you only type the method once.
 
+In the next lessons we will look at methods. At the end of the lessons you will use methods to remove this duplication.
+
 ## Excerise
 
 0. No exericses so far but we'll have one next lesson
