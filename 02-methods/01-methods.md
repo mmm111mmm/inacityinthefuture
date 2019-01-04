@@ -7,7 +7,7 @@ We will use methods to reduce this duplication that we mentioned.
 
 You know what they look like. Look at this outline of Java program:
 
-```
+```java
 class Main {
   public static void main(String[] args) {
     ...
