@@ -1,7 +1,7 @@
 
 # Methods
 
-We will use methods to reduce this duplication that we mentioned..
+We will use methods to reduce this duplication that we mentioned.
 
 ## What does a method look like?
 
