@@ -2,7 +2,7 @@
 
 We created methods in the last lesson. We will now **call** them.
 
-When we **call** a method, Java runs the statements in that mehods.
+When we **call** a method, Java runs the statements in that mehod.
 
 At the end of the method, Java returns to where the method was **call**ed.
 
