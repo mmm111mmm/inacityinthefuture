@@ -51,6 +51,16 @@ End of program.
 
 Java starts in the `main` method. It sees the call to the `hello` method. It then performs all the statements in `hello`. It then returns to `main` and see the `helloAgain()` method call. It then performs all the statements in `helloAgain`. It then returns to `main` and see the `hello()` method call.  It then performs all the statements in `hello` (again). It finally prints out "End of program." in `main`.
 
+## Exercises
+
+0. Start a new Java program on https://repl.it
+0. Save this file as java_exercise_2_2_0 (click on the pen icon near the top left)
+0. Make a program with new methods, `newMethod1` and `newMethod2`. Ensure you have the `main` method too.
+0. In `main` call `newMethod1`.
+0. In `newMethod1` call `newMethod2`
+0. In `newMethod2` print `"Hello, World!"`.
+
+
 ## Questions
 
 0. What does calling a method do?
