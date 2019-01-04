@@ -33,7 +33,7 @@ Methods (like `if` and `switch` statements) are "blocks" of code. So they start 
 
 Inside these curley brackets we have statements:
 
-```
+```java
 class Main {
   public static void main(String[] args) {
     System.out.println("I am the only statement in this method");
