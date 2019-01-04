@@ -14,7 +14,7 @@ From `main`, we then **call** other methods.
 
 We call the method by typing its name, then `()` and finally a semi-colon, `;` (because calling a method is a statement).
 
-```
+```java
 class Main {
   
   public static void main(String[] args) {
