@@ -57,7 +57,7 @@ Method names can contain letters, underscores and numbers, but they must start w
 
 And our methods should have statements in them:
 
-```
+```java
 class Main {
   
   public static void main(String[] args) {
