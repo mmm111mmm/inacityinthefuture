@@ -1,4 +1,4 @@
-# Calling methods
+# 2. Calling methods
 
 We created methods in the last lesson. We will now **call** them.
 
