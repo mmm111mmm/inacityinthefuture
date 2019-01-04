@@ -47,7 +47,7 @@ class Main {
 }
 ```
 
-The logc in the if-else statments is the same. Only the variables differ.
+The if-else statements are the same. Only the variables differ.
 
 ## Getting rid of the duplication: methods
 
