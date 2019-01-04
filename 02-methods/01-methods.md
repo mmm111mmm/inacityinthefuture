@@ -85,13 +85,9 @@ We will look at that next lesson. In this lesson we will only practice writing n
 
 0. Start a new Java program on https://repl.it
 0. Save this file as java_exercise_2_1_0 (click on the pen icon near the top left)
-0. Make a program with the new methods, `newMethod1` and `newMethod2`.
-0. Make `main` call `newMethod1`.
-0. Make `newMethod1` call `newMethod2`
-0. Make `newMethod2` print `"I'm in newMethod2`
-0. After that, from `main`, print `"I am finished."`
+0. Make a program with new methods, `newMethod1` and `newMethod2`. Ensure you have the `main` method too.
+
 
 ## Questions
 
-0. What does calling a method do?
 0. What method does Java look at first?
