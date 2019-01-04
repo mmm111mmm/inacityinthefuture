@@ -47,7 +47,7 @@ We used the method name, `main`, before. This is special in Java.
 
 Java looks for this method to start our program.
 
-The main method must contain `(String[] args)`.  But our other methods can just contain `()`. (We will look at this next lesson).
+The main method must contain `(String[] args)`.  But our other methods can just contain `()`. (We will look at this in a few lessons).
 
 ## Other methods and method names
 
