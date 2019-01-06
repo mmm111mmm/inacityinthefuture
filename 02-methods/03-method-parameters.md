@@ -67,7 +67,7 @@ public static void anotherMethod(String name, String city) {
 }
 ```
 
-Then the methdod call is `anotherMethod("Aaron", "Berlin");`.
+Then the method call is `anotherMethod("Aaron", "Berlin");`.
 
 When you give a method a value, we call that a **argument*. 
 
