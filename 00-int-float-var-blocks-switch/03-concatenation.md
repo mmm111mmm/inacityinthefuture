@@ -51,7 +51,7 @@ We can do this for floats too.
 class Main {
   public static void main(String[] args) {
     System.out.println("This is an int: " + 42 + ".");
-    System.out.println("This is an float: " + 3.1415 + ".");
+    System.out.println("This is an float: " + 3.1415f + ".");
   }
 }
 ```
