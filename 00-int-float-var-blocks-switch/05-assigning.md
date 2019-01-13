@@ -2,7 +2,7 @@
 
 We previously declared a variable.
 
-Now we will give that variable a value (i.e. "Aaron", 36, 3.14, etc)
+Now we will give that variable a value (i.e. "Aaron", 36, 3.14f, etc)
 
 This will be the third statement that we can use.
 
@@ -36,7 +36,7 @@ age = 36;
 For example, we assign `10.50` to the `score` variable by writing:
 
 ```java
-score = 10.50;
+score = 10.50f;
 ````
 
 ## Printing the variable
