@@ -34,13 +34,15 @@ Floats are: 0.1, 0.2, 0.666667, 14.2, 3.14, 9.9, etc.
 
 (We can also call these floating point numbers.)
 
+In Java, we put a `f` after the number to tell Java it's a float.
+
 Here's how we print an float: 
 
 **code sample 0.2.1**
 ```java
 class Main {
   public static void main(String[] args) {
-    System.out.println(3.1415);
+    System.out.println(3.1415f);
   }
 }
 ```
