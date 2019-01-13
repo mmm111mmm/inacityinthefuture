@@ -64,11 +64,11 @@ We can do the same with floats. But the data types must all be floats.
 ```java
 class Main {
   public static void main(String[] args) {
-    float score = 10.5;
+    float score = 10.5f;
     System.out.println(score);
-    score = score + 2.1;
+    score = score + 2.1f;
     System.out.println(score);
-    score = score - 2.2;
+    score = score - 2.2f;
     System.out.println(score);    
   }
 }
@@ -96,13 +96,13 @@ For example:
 ```java
 class Main {
   public static void main(String[] args) {
-    float score = 10.0;
+    float score = 10.0f;
     System.out.println(score);
-    score = score * 2;
+    score = score * 2.0f;
     System.out.println(score);
-    score = score / 4;
+    score = score / 4.0f;
     System.out.println(score);
-    score = score % 2;
+    score = score % 2.0f;
     System.out.println(score);    
   }
 }
