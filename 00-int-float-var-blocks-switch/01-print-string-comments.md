@@ -112,7 +112,7 @@ class Main {
 
 0. Start a new Java program on https://repl.it
 0. Save this file as java_exercise_0_1_0 (click on the pen icon near the top left)
-0. Write a program that has two statements: the first prints "My name is <insert your name here>!"`, and the second prints "Goodbye!".
+0. Write a program that has two statements: the first prints `"My name is <insert your name here>!"`, and the second prints "Goodbye!".
 0. Add a comment that says what your program does!
 
 ## Questions to answer ##
